@@ -1,0 +1,24 @@
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/api/v1/jadwal-ksl",
+        "function": "jadwalKSL"
+      },
+      {
+        "source": "/api/v1/anggota-ksl",
+        "function": "anggotaKSL"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
