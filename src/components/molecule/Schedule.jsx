@@ -4,6 +4,7 @@ import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 const Schedule = () => {
     const [data, setData] = useState([]);
+    const [color, setColor] = useState("bg-[#227154]");
 
     useEffect(() => {
         async function fetchData() {
@@ -25,7 +26,7 @@ const Schedule = () => {
         var slider = document.getElementById('slider');
         slider.scrollLeft = slider.scrollLeft + 500;
     };
-
+    console.log(data);
     return (
         <div className="md:w-[44rem] lg:w-[56rem] xl:w-[72rem] mx-auto ">
             <h1 className="max-w-md text-xl md:text-2xl lg:text-3xl font-bold opacity-80">Jadwal Kelas</h1>
@@ -67,13 +68,34 @@ const Schedule = () => {
 
                     {data && data.length > 0 &&
                         <>
-                            {data.map(data => (
+                            {data.slice(1).map(data => {
+                                if (data[0] == 11) {
+                                    return(
+                                        <div key={data[0]} className="bg-[#227154] rounded-2xl py-4 px-4 mx-2 cursor-pointer">
+                                            <h1 className="text-[16px]" >{data[1]}</h1>
+                                            <h1 className="text-[14px]">{data[2]}</h1>
+                                        </div>
+                                    )
+                                }else if (data[0] % 2 == 0) {
+                                    return (
+                                        <div key={data[0]} className="bg-trmColor rounded-2xl py-4 px-4 mx-2 cursor-pointer">
+                                            <h1 className="text-[16px]" >{data[1]}</h1>
+                                            <h1 className="text-[14px]">{data[2]}</h1>
+                                        </div>
+                                    )
+                                } else if (data[0] % 2 == 1) {
+                                    return (
+                                        <div key={data[0]} className="bg-cardColor rounded-2xl py-4 px-4 mx-2 cursor-pointer">
+                                            <h1 className="text-[16px]" >{data[1]}</h1>
+                                            <h1 className="text-[14px]">{data[2]}</h1>
+                                        </div>
+                                    )
+                                }
 
-                                <div key={data[0]} className="bg-[#791E3F] rounded-2xl py-4 px-4 mx-2 cursor-pointer">
-                                    <h1 className="text-[16px]" >{data[1]}</h1>
-                                    <h1 className="text-[14px]">{data[2]}</h1>
-                                </div>
-                            ))}
+
+
+                            }
+                            )}
                         </>
                     }
 
