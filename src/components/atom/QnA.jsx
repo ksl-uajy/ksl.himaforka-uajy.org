@@ -12,7 +12,7 @@ const QnA = () => {
             </div>
             <div className="md:flex mb-4 lg:mt-4 lg::mb-8 xl:mt-8 xl:mb-24">
                 <CardQuest nama={"Alexis Divasonda"} img={Alexis} linkWA={"https://api.whatsapp.com/send?phone=6282352807977"} linkIG={"https://www.instagram.com/ngaing_bantaq/"}/>
-                <CardQuest nama={"Erick Marcellino"} img={Eric} linkWA={"https://api.whatsapp.com/send?phone=62895363541463"} linkIG={"https://www.instagram.com/erickmarcellinop/"}/>
+                <CardQuest nama={"Erick Marcellino"} img={Eric} linkWA={"https://api.whatsapp.com/send?phone=6281228332396"} linkIG={"https://www.instagram.com/erickmarcellinop/"}/>
             </div>
         </div>
     )

@@ -43,7 +43,7 @@ const CardRegis = ({ cardReg, login }) => {
                 </div>
                 <AuthenticatedTemplate>
                     <div className="flex-none">
-                        <div onClick={handleLogout} className="xl:mt-16 md:mt-40 bg-buttonColor max-w-fit rounded-full text-center cursor-pointer hover:opacity-90">
+                        <div onClick={handleLogout} className="xl:mt-16 md:mt-16 bg-buttonColor max-w-fit rounded-full text-center cursor-pointer hover:opacity-90">
                             <h1 className="px-8 py-2 text-fontColor font-display text-sm md:text-base">Logout</h1>
                         </div>
                     </div>
