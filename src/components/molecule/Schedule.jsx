@@ -29,7 +29,9 @@ const Schedule = () => {
     return (
         <div className="md:w-[44rem] lg:w-[56rem] xl:w-[72rem] mx-auto ">
             <h1 className="max-w-md text-xl md:text-2xl lg:text-3xl font-bold opacity-80">Jadwal Kelas</h1>
-            <Cardinstall materi={data[0][1]} tanggal={data[0][2]} />
+            {data && data.length > 0 &&
+                <Cardinstall materi={data[0][1]} tanggal={data[0][2]} />
+            }
             <div className="flex relative items-center mt-3 md:mt-4">
                 <MdChevronLeft className="hidden lg:block opacity-80 cursor-pointer hover:opacity-75 hover:scale-150 mr-2" size={30} onClick={slideLeft} />
                 <div id="slider" className=" xl:w-[56rem] lg:w-[42rem] md:w-[36rem] h-full flex snap-x overflow-x-auto whitespace-nowrap scrollbar-hide scroll-smooth rounded-2xl font-light">
