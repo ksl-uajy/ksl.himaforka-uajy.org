@@ -44,7 +44,6 @@ const Navbar = () => {
 
     
     useEffect(() =>{
-        console.log(location, "ini location")
         if (location.pathname == "/") {
             setSecondNav("h-[46rem] md:h-[26rem] lg:h-[28rem] xl:h-[34rem] w-full bg-secondaryBG rounded-b-[2rem] md:rounded-b-[3rem] lg:rounded-b-[4rem] z-0 absolute");
             setUnderline({

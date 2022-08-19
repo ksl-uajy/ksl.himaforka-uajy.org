@@ -1,8 +1,7 @@
 import React from "react";
 import LOGOKSL from "../assets/icon/KSL-header.png";
 import { BsInstagram, BsGithub } from "react-icons/bs"
-import { MdEmail } from "react-icons/md"
-import { Link } from "react-router-dom";
+import { MdEmail } from "react-icons/md";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -13,7 +12,6 @@ const Footer = () => {
         if (screen.width < 768) {
             setSizeNormal(25)
         }
-        console.log("ini sizenya" , sizeNormal);
     }, [sizeNormal])
 
 

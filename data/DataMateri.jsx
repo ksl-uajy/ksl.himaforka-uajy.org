@@ -1,13 +1,3 @@
-
-export const bgColor = () =>{
-    if (dbMateri.id % 2 == 1) {
-        return("bg-cardColor");
-    }else{
-        return("bg-trmCard");
-    }
-}
-
-
 export const dbMateri = [
     {
         id :1,

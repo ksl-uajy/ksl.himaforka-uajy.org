@@ -19,21 +19,19 @@ const Pengurus = () => {
     useEffect(() => {
        let time = setInterval(() => {
             setIsActive(!isActive);
-            console.log("anu");
        }, 15000);
         
        return(() =>{
         clearInterval(time)
-        console.log("dari return");
        })
       }, [isActive]);
 
     return (
         <Fragment>
             <div className="text-justify md:w-[44rem] lg:w-[56rem] xl:w-[72rem] xl:mt-12 flex">
-                <h1 className="font-bold text-xl md:text-2xl lg:text-3xl opacity-80 mt-8 mb-8 md:mb-4 text-left xl:mr-8">Susunan Organisasi</h1>
-                <div className="w-36 h-10 rounded-xl bg-cardColor mt-7 py-2 text-center  ">
-                    <h1 className="font-medium text-lg opacity-80">{isActive ? "2022/2023" : "2021/2022"}</h1> 
+                <h1 className="font-bold text-xl md:text-2xl lg:text-3xl opacity-80 mt-8 mb-8 md:mb-4 text-left mr-4 xl:mr-8">Susunan Organisasi</h1>
+                <div className="md:w-32 lg:w-36 md:h-9 h-8 w-24 lg:h-10 rounded-xl bg-cardColor mt-7 py-2 text-center  ">
+                    <h1 className="font-medium text-sm md:text-base lg:text-lg opacity-80">{isActive ? "2022/2023" : "2021/2022"}</h1> 
                 </div>
             </div>
             {isActive ?

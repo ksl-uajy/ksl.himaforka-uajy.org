@@ -1,8 +1,14 @@
 import React from "react";
 import Button from "../atom/Button";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Deskripsi = () => {
+    let navigate = useNavigate();
+
+    const navigasi = () => {
+        navigate('activity')
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    }
     return (
         <div className="max-w-fit mt-8 md:mt-16 xl:mt-20 lg:ml-3 xl:ml-2 md:mx-auto text-justify md:px-0 ">
             <div className="font-display text-fontColor xl:w-[72rem] lg:w-[56rem] md:w-[44rem] mx-auto">
@@ -20,11 +26,7 @@ const Deskripsi = () => {
                         Kita akan membahas berbagai hal tentang Linux secara umum, mulai dari basic hingga networking dan peretasan etis.
                         Belum bisa memakai Linux? Tidak apa-apa dan boleh banget untuk bergabung, disini kita akan belajar dari awal kok.
                     </p>
-                    <div className="">
-                        <Link to="activity">
-                            <Button style={"mt-4 lg:mt-10 "} styleH={"opacity-80"} title={"Selengkapnya >"} />
-                        </Link>
-                    </div>
+                    <Button click={navigasi} style={"mt-4 lg:mt-10 "} title={"Selengkapnya >"} />
                 </div>
             </div>
         </div>

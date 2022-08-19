@@ -1,6 +1,5 @@
 import React from "react";
-import Button from "./Button";
-import { useIsAuthenticated, AuthenticatedTemplate, UnauthenticatedTemplate, useMsal } from "@azure/msal-react";
+import { AuthenticatedTemplate, UnauthenticatedTemplate, useMsal } from "@azure/msal-react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { loginRequest } from "../../authConfig";
@@ -18,10 +17,9 @@ const CardRegis = ({ cardReg, login }) => {
         
     }
 
-    function handleLogout() {
-        instance.logoutRedirect({ postLogoutRedirectUri: "/", });
+    const handleTimeout = () =>{
+        alert("Pendaftaran Sudah ditutup");
     }
-
 
     return (
         <motion.div
@@ -43,14 +41,14 @@ const CardRegis = ({ cardReg, login }) => {
                 </div>
                 <AuthenticatedTemplate>
                     <div className="flex-none">
-                        <div onClick={handleLogout} className="xl:mt-16 md:mt-16 bg-buttonColor max-w-fit rounded-full text-center cursor-pointer hover:opacity-90">
-                            <h1 className="px-8 py-2 text-fontColor font-display text-sm md:text-base">Logout</h1>
+                        <div onClick={() => navigate('/register')} className="xl:mt-16 md:mt-16 mt-8 bg-buttonColor max-w-fit rounded-full text-center cursor-pointer hover:opacity-90">
+                            <h1 className="px-8 py-2 text-fontColor font-display text-sm md:text-base">Daftar</h1>
                         </div>
                     </div>
                 </AuthenticatedTemplate>
                 <UnauthenticatedTemplate>
                     <div className="flex-none">
-                        <div onClick={login ? null : handleLogin} className={cardReg}>
+                        <div onClick={login ? handleTimeout : handleLogin} className={cardReg}>
                             <h1 className="px-8 py-2 text-fontColor font-display text-sm md:text-base">Daftar</h1>
                         </div>
                     </div>

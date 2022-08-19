@@ -6,7 +6,7 @@ import Activity from "./pages/Activity";
 import Footer from "../components/Footer";
 import Register from "../components/molecule/Register";
 import Navbar from "../components/atom/Navbar";
-import Galeri from "./pages/Galeri"
+import Gallery from "./pages/Gallery"
 
 const App = () => {
   const [TimerDay, setTimerDay] = useState('00');
@@ -52,11 +52,11 @@ const App = () => {
     <div className="bg-primaryBG">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home login={isDisplay} style={isDisplay ? "xl:mt-16 md:mt-16 bg-buttonColor max-w-fit rounded-full text-center cursor-not-allowed hover:opacity-90":"xl:mt-16 md:mt-40 bg-buttonColor max-w-fit rounded-full text-center cursor-pointer hover:opacity-90"} time={isDisplay ? 'hidden' : null} hide={isDisplay ? 'block' : 'hidden'} Day={TimerDay} Hours={TimerHours} Minutes={TimerMinutes} Seconds={TimerSeconds} />} />
+        <Route path="/" element={<Home login={isDisplay} style={isDisplay ? "xl:mt-16 md:mt-10 mt-8 bg-buttonColor max-w-fit rounded-full text-center cursor-not-allowed hover:opacity-90":"xl:mt-16 md:mt-10 mt-8 bg-buttonColor max-w-fit rounded-full text-center cursor-pointer hover:opacity-90"} time={isDisplay ? 'hidden' : null} hide={isDisplay ? 'block' : 'hidden'} Day={TimerDay} Hours={TimerHours} Minutes={TimerMinutes} Seconds={TimerSeconds} />} />
         <Route path="activity" element={<Activity />} />
         <Route path="about" element={<About />} />
         <Route path="register" element={<Register reg={isDisplay}/>} />
-        <Route path="galeri" element={<Galeri/>}/>
+        <Route path="gallery" element={<Gallery/>}/>
       </Routes>
       <Footer />
     </div>
