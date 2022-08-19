@@ -37,7 +37,7 @@ const CardRegis = ({ cardReg, login }) => {
                     <h1 className="text-fontColor text-xl  md:text-[22px] lg:text-[28px] xl:text-3xl font-bold font-display leading-normal opacity-80">PENDAFTARAN ANGGOTA KELOMPOK STUDI LINUX 2022/2023 TELAH DIBUKA!</h1>
                 </div>
                 <div id="description" className="mt-2 md:mt-6">
-                    <p className="font-display font-medium text-fontColor opacity-70 text-sm md:text-base xl:text-lg">Pendaftaran dibuka dari 20 Agustus 2022 sampai 31 Agustus 2022. Jangan sampai terlewat yaa...</p>
+                    <p className="font-display font-medium text-fontColor opacity-70 text-sm md:text-base xl:text-lg">Pendaftaran dibuka dari 19 Agustus 2022 sampai 31 Agustus 2022. Jangan sampai terlewat yaa...</p>
                 </div>
                 <AuthenticatedTemplate>
                     <div className="flex-none">

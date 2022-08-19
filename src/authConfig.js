@@ -14,7 +14,7 @@ export const msalConfig = {
     auth: {
         clientId: "3390d9d6-9a1b-43f4-9f0e-eafd5f8417f3",
         authority: "https://login.microsoftonline.com/89870a59-1408-40ee-a72a-22c7020ac747",
-        redirectUri: "https://ksl-himaforka.web.app"
+        redirectUri: "https://ksl.himaforka-uajy.org"
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored

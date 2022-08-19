@@ -40,7 +40,7 @@ export const dbPengurusBaru = [
         id      : 7,
         nama    : 'Petra',
         jabatan : 'kominfo',
-        img     : '/assets/img/pengurus/Petra.png'
+        img     : '/assets/img/pengurus/Petra.jpg'
 
     }
 ]
