@@ -1,0 +1,8 @@
+{
+  "extends": ["eslint:recommended", "next/core-web-vitals", "plugin:prettier/recommended"],
+  "rules": {
+    "@next/next/no-html-link-for-pages": "off",
+    "@next/next/no-img-element": "off",
+    "react/jsx-sort-props": "error"
+  }
+}
