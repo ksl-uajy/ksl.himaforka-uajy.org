@@ -8,7 +8,7 @@
     "preinstall": "npx only-allow pnpm",
     "lint": "next lint",
     "prepare": "husky install",
-    "pretty": "prettier --write .",
+    "prettier": "prettier --write .",
     "start": "next start"
   },
   "dependencies": {
