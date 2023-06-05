@@ -1,3 +1,7 @@
+import FAQ from "@/components/FAQ";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import Terminal from "@/components/Terminal";
 import Head from "next/head";
 
 const Home = () => {
@@ -15,7 +19,10 @@ const Home = () => {
         />
       </Head>
       <div className="flex w-full">
-        <h1 className="flex text-blue-400">Hello, cruel world!</h1>
+        <Navbar />
+        <Terminal />
+        <FAQ />
+        <Footer />
       </div>
     </>
   );
