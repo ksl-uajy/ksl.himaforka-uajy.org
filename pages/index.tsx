@@ -18,7 +18,7 @@ const Home = () => {
           rel="stylesheet"
         />
       </Head>
-      <div className="flex w-full">
+      <div>
         <Navbar />
         <Terminal />
         <FAQ />
