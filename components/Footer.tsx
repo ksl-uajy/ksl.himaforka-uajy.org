@@ -1,7 +1,8 @@
 import Logo from "@/public/kslLogo.svg";
 import Image from "next/image";
+import { FC, useEffect, useState } from "react";
 
-const Footer = () => {
+const Footer: FC = () => {
   return (
     <>
       <div className="container mx-auto w-full p-4 font-rubik sm:p-6">

@@ -1,6 +1,8 @@
 import React from "react";
+// import {render, Text} from 'ink';
+import { FC, useEffect, useState } from "react";
 
-function Terminal() {
+const Terminal: FC = () => {
   return (
     <>
       <div className="mx-auto flex max-w-screen-sm items-center justify-center">
@@ -11,19 +13,20 @@ function Terminal() {
           <div className="px-6">
             <h2 className="py-4 text-[#FFF0BA] dark:text-[#FFF0BA]">
               {">"} ksl art <br />
-              &nbsp; /----------- &emsp;
-              ▓&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓{" "}
-              <br />/ &emsp; &emsp; 0&nbsp; o &nbsp;&nbsp;\ &ensp;
-              ▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓{" "}
-              <br />| &emsp; &emsp; &emsp; &nbsp; &nbsp;{">"}| &ensp;
-              ▓▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;▓▓▓▓&nbsp;&ensp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓{" "}
-              <br />
-              |~~~~~~~~| &ensp;
-              ▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓{" "}
-              <br />
-              -------------- &nbsp;&nbsp;
-              ▓&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;
-              &nbsp;▓▓▓▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓&ensp;&ensp;&nbsp;&nbsp;▓▓{" "}
+              {/* &nbsp; /----------- &emsp;
+                ▓&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓{" "}
+                <br />/ &emsp; &emsp; 0&nbsp; o &nbsp;&nbsp;\ &ensp;
+                ▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓{" "}
+                <br />| &emsp; &emsp; &emsp; &nbsp; &nbsp;{">"}| &ensp;
+                ▓▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;▓▓▓▓&nbsp;&ensp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓{" "}
+                <br />
+                |~~~~~~~~| &ensp;
+                ▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓{" "}
+                <br />
+                -------------- &nbsp;&nbsp;
+                ▓&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;
+                &nbsp;▓▓▓▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓&ensp;&ensp;&nbsp;&nbsp;▓▓{" "} */}
+              {/* <Text color="green">/----------- &emsp;</Text> */}
               <br />
             </h2>
             <h2 className="text-[#ECECEC]">
@@ -45,6 +48,6 @@ function Terminal() {
       </div>
     </>
   );
-}
+};
 
 export default Terminal;
