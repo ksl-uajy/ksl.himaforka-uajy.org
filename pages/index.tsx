@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
@@ -19,10 +20,11 @@ const Home = () => {
           rel="stylesheet"
         />
       </Head>
-      <div>
+      <div className="bg-gradient-to-r from-[#03151B] to-[#1D1903]">
         <Navbar />
         <Terminal />
         <FAQ />
+        <About />
         <Contact />
         <Footer />
       </div>

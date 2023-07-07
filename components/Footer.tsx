@@ -5,7 +5,7 @@ import { FC, useEffect, useState } from "react";
 const Footer: FC = () => {
   return (
     <>
-      <div className="container mx-auto w-full p-4 font-rubik sm:p-6">
+      <div className="container mx-auto w-full p-4 font-rubik text-white sm:p-6">
         <div className="container mx-auto w-full p-4 sm:p-6">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
@@ -18,10 +18,8 @@ const Footer: FC = () => {
             </div>
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-16">
               <div>
-                <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-black">
-                  Beranda
-                </h2>
-                <ul className="text-gray-600 dark:text-gray-400">
+                <h2 className="mb-6 text-sm font-semibold uppercase ">Beranda</h2>
+                <ul className="">
                   <li className="mb-4">
                     <a className="hover:underline" href="#">
                       Daftar
@@ -35,10 +33,8 @@ const Footer: FC = () => {
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-black">
-                  Kegiatan
-                </h2>
-                <ul className="text-gray-600 dark:text-gray-400">
+                <h2 className="mb-6 text-sm font-semibold uppercase">Kegiatan</h2>
+                <ul>
                   <li className="mb-4">
                     <a className="hover:underline" href="#">
                       Materi
@@ -57,10 +53,8 @@ const Footer: FC = () => {
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-black">
-                  Media Sosial
-                </h2>
-                <ul className="text-gray-600 dark:text-gray-400">
+                <h2 className="mb-6 text-sm font-semibold uppercase">Media Sosial</h2>
+                <ul className="">
                   <li className="mb-4">
                     <a className="hover:underline" href="#">
                       Instagram
@@ -81,7 +75,7 @@ const Footer: FC = () => {
             </div>
           </div>
           <div className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-20">
-            <span className="dark:text-black-400 block text-center text-sm text-gray-500 sm:text-center">
+            <span className="dark:text-black-400 block text-center text-sm text-white sm:text-center">
               Made with ❤️ from KSL 2022/2023 <br /> source code is FOSS and available on GitHub
             </span>
           </div>

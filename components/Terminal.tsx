@@ -6,9 +6,9 @@ const Terminal: FC = () => {
   return (
     <>
       <div className="mx-auto flex max-w-screen-sm items-center justify-center">
-        <div className="h-[310px] w-full rounded-[10px] bg-[#090D13] leading-[18.5px]">
-          <div className="h-10 w-full rounded-t-[10px] bg-[#03070D]">
-            <h1 className="px-6 py-2 text-yellow-600 dark:text-yellow-400">😺 NekoTerm</h1>
+        <div className="h-[310px] w-full rounded-[10px] bg-[#102C27] leading-[18.5px]">
+          <div className="h-10 w-full rounded-t-[10px] bg-[#20443E]">
+            <h1 className="px-6 py-2 font-semibold text-[#FFEDBF]">😺 NekoTerm</h1>
           </div>
           <div className="px-6">
             <h2 className="py-4 text-[#FFF0BA] dark:text-[#FFF0BA]">
