@@ -9,8 +9,8 @@ const Footer: FC = () => {
         <div className="container mx-auto w-full p-4 sm:p-6">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-              <a href="https://ksl.himaforka-uajy.org/" className="items-right flex">
-                <Image src={Logo} alt="Logo KSL" className="mr-3 w-56"></Image>
+              <a className="items-right flex" href="https://ksl.himaforka-uajy.org/">
+                <Image alt="Logo KSL" className="mr-3 w-56" src={Logo}></Image>
               </a>
               <span className="text-black-500 dark:text-black-400 text-sm">
                 Kelompok Studi Linux adalah...
@@ -18,15 +18,17 @@ const Footer: FC = () => {
             </div>
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-16">
               <div>
-                <h2 className="mb-6 text-sm uppercase text-gray-900 dark:text-black">Beranda</h2>
+                <h2 className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-black">
+                  Beranda
+                </h2>
                 <ul className="text-gray-600 dark:text-gray-400">
                   <li className="mb-4">
-                    <a href="#" className="hover:underline">
+                    <a className="hover:underline" href="#">
                       Daftar
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a className="hover:underline" href="#">
                       Homepage
                     </a>
                   </li>
@@ -38,17 +40,17 @@ const Footer: FC = () => {
                 </h2>
                 <ul className="text-gray-600 dark:text-gray-400">
                   <li className="mb-4">
-                    <a href="#" className="hover:underline">
+                    <a className="hover:underline" href="#">
                       Materi
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a href="#" className="hover:underline">
+                    <a className="hover:underline" href="#">
                       Event
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a className="hover:underline" href="#">
                       Galeri
                     </a>
                   </li>
@@ -60,17 +62,17 @@ const Footer: FC = () => {
                 </h2>
                 <ul className="text-gray-600 dark:text-gray-400">
                   <li className="mb-4">
-                    <a href="#" className="hover:underline">
+                    <a className="hover:underline" href="#">
                       Instagram
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a href="#" className="hover:underline">
+                    <a className="hover:underline" href="#">
                       E-mail
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:underline">
+                    <a className="hover:underline" href="#">
                       LinkTree
                     </a>
                   </li>

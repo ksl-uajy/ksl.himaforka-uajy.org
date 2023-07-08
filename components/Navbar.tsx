@@ -14,7 +14,7 @@ const Header: FC = () => {
     <header className="font-rubik text-white">
       <div className="Container mx-auto flex items-center justify-between py-4 px-4 md:px-24">
         <div className="">
-          <Image src={Logo} alt="Logo KSL" className="w-[150px] md:w-[220px]" />
+          <Image alt="Logo KSL" className="w-[150px][] md:w-[220px]" src={Logo} />
         </div>
         {/* HumburgerMenu */}
         <button
@@ -37,7 +37,7 @@ const Header: FC = () => {
             }
           ></div>
         </button>
-        <nav className="hidden pr-5 md:block">
+        <nav className="hidden pr-5 text-gray-600 dark:text-gray-400 md:block">
           <ul className="flex space-x-4">
             <li>
               <a href="">Kegiatan</a>

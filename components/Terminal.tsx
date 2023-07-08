@@ -35,7 +35,7 @@ const Terminal: FC = () => {
               <br />
               {">"} ksl info <br />
               Untuk informasi lebih lanjut, klik{" "}
-              <a href="#" className="hover:underline">
+              <a className="hover:underline" href="#">
                 disini.
               </a>
               <br />

@@ -1,6 +1,7 @@
 import React from "react";
+import { FC, useEffect, useState } from "react";
 
-function FAQ() {
+const FAQ: FC = () => {
   return (
     <>
       <div className="mx-auto flex max-w-screen-sm items-center justify-center font-rubik">
@@ -15,6 +16,6 @@ function FAQ() {
       </div>
     </>
   );
-}
+};
 
 export default FAQ;
