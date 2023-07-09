@@ -37,7 +37,7 @@ const Header: FC = () => {
             }
           ></div>
         </button>
-        <nav className="hidden pr-5 text-gray-600 dark:text-gray-400 md:block">
+        <nav className="hidden pr-5 text-white dark:text-white md:block lg:text-lg">
           <ul className="flex space-x-4">
             <li>
               <a href="">Kegiatan</a>
