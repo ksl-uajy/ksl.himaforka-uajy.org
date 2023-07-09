@@ -12,9 +12,9 @@ const Footer: FC = () => {
               <a className="items-right flex" href="https://ksl.himaforka-uajy.org/">
                 <Image alt="Logo KSL" className="mr-3 w-56" src={Logo}></Image>
               </a>
-              <span className="text-black-500 dark:text-black-400 text-sm">
+              <p className="text-black-500 dark:text-black-400 text-sm">
                 Kelompok Studi Linux adalah...
-              </span>
+              </p>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-16">
               <div>
@@ -74,10 +74,10 @@ const Footer: FC = () => {
               </div>
             </div>
           </div>
-          <div className="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-20">
-            <span className="dark:text-black-400 block text-center text-sm text-white sm:text-center">
+          <div className="sm:mx-auto">
+            <p className="text-center text-sm text-white sm:text-center">
               Made with ❤️ from KSL 2022/2023 <br /> source code is FOSS and available on GitHub
-            </span>
+            </p>
           </div>
         </div>
       </div>

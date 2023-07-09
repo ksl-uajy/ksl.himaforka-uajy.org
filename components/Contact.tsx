@@ -13,7 +13,7 @@ const Contact: FC = () => {
             <p className="">Kami siap membantu Anda</p>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-6">
+        <div className="items-center justify-center gap-6 md:flex">
           <div className="flex h-[80px] w-[200px] gap-6 rounded-2xl bg-[#213E2C] py-5 pl-5">
             <Image alt="Foto dummy" className="h-16 w-16 flex-initial rounded-full" src={Foto} />
             <div className="text-[#B4FFD2]">
