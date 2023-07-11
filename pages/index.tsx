@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import Modul from "@/components/Modul";
 import Navbar from "@/components/Navbar";
 import Terminal from "@/components/Terminal";
 import Head from "next/head";
@@ -27,6 +28,8 @@ const Home = () => {
         <About />
         <Contact />
         <Footer />
+
+        <Modul />
       </div>
     </>
   );
