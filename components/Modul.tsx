@@ -9,7 +9,7 @@ const Modul: FC = () => {
     <>
       <div className="max-w-screen relative mx-auto py-6 md:py-20">
         <div className="px-32">
-          <h1 className="font-rubik text-xl font-bold text-[#FDFFB0] md:text-3xl">
+          <h1 className="font-rubik text-xl font-semibold text-[#FDFFB0] md:text-3xl">
             KSL belajar apa aja sihh?
           </h1>
         </div>
@@ -18,13 +18,13 @@ const Modul: FC = () => {
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl"
+                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl shadow-2xl"
                 src={FotoTest}
               />
             </a>
             <div className="px-6 pb-8 text-center font-rubik">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
+                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
                   Ngeheck NASA
                 </h5>
               </a>
@@ -37,13 +37,13 @@ const Modul: FC = () => {
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl"
+                className="mx-auto mb-8 mt-16 h-60 w-60 rounded-xl shadow-2xl"
                 src={FotoTest}
               />
             </a>
             <div className="px-6 pb-8 text-center font-rubik">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
+                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
                   Ngeheck NASA
                 </h5>
               </a>
@@ -56,13 +56,13 @@ const Modul: FC = () => {
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl"
+                className="mx-auto mb-8 mt-16 h-60 w-60 rounded-xl shadow-2xl"
                 src={FotoTest}
               />
             </a>
             <div className="px-6 pb-8 text-center font-rubik">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
+                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
                   Ngeheck NASA
                 </h5>
               </a>
@@ -75,13 +75,13 @@ const Modul: FC = () => {
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl"
+                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl shadow-2xl"
                 src={FotoTest}
               />
             </a>
             <div className="px-6 pb-8 text-center font-rubik">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
+                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
                   Ngeheck NASA
                 </h5>
               </a>
@@ -94,13 +94,13 @@ const Modul: FC = () => {
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl"
+                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl shadow-2xl"
                 src={FotoTest}
               />
             </a>
             <div className="px-6 pb-8 text-center font-rubik">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
+                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
                   Ngeheck NASA
                 </h5>
               </a>

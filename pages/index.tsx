@@ -1,7 +1,9 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+import Event from "@/components/Event";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import Gallery from "@/components/Gallery";
 import Modul from "@/components/Modul";
 import Navbar from "@/components/Navbar";
 import Terminal from "@/components/Terminal";
@@ -30,6 +32,8 @@ const Home = () => {
         <Footer />
 
         <Modul />
+        <Gallery />
+        <Event />
       </div>
     </>
   );
