@@ -7,10 +7,8 @@ import { FC, useEffect, useState } from "react";
 const Gallery: FC = () => {
   return (
     <>
-      <div className="mx-auto items-center justify-center">
-        <h1 className="px-32 pb-10 font-rubik text-3xl font-bold text-[#FAFFC4]">
-          Galeri Kegiatan
-        </h1>
+      <div className="container mx-auto items-center justify-center">
+        <h1 className="px-3 pb-10 font-rubik text-3xl font-bold text-[#FAFFC4]">Galeri Kegiatan</h1>
         <div className="mx-auto h-[40rem] w-10/12 flex-none rounded-xl bg-[#353520] lg:flex lg:w-[126rem]">
           <div className="flex gap-6 p-10 pb-8">
             <div className="h-40 w-40 rounded-lg bg-white shadow-xl">
