@@ -4,11 +4,11 @@ import Image from "next/image";
 import React from "react";
 import { FC, useEffect, useState } from "react";
 
-function Gallery() {
+const Gallery: FC = () => {
   return (
     <>
-      <div className="mx-auto items-center justify-center pb-20">
-        <h1 className="py-10 px-32 font-rubik text-3xl font-bold text-[#FAFFC4]">
+      <div className="mx-auto items-center justify-center">
+        <h1 className="px-32 pb-10 font-rubik text-3xl font-bold text-[#FAFFC4]">
           Galeri Kegiatan
         </h1>
         <div className="mx-auto flex h-[40rem] w-[126rem] rounded-xl bg-[#353520]">
@@ -42,6 +42,6 @@ function Gallery() {
       </div>
     </>
   );
-}
+};
 
 export default Gallery;

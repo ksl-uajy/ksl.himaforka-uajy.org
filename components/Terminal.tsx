@@ -5,7 +5,7 @@ import { FC, useEffect, useState } from "react";
 const Terminal: FC = () => {
   return (
     <>
-      <div className="max-w-screen mx-auto flex items-center justify-center py-6">
+      <div className="mx-auto flex items-center justify-center py-6">
         <div className="w-[44unded-xl h-[33rem] rounded-xl bg-[#102C27] leading-[18.5px] lg:w-[80rem]">
           <div className="h-10 w-full rounded-t-xl bg-[#20443E]">
             <h1 className="px-6 py-2 font-rubik text-[#FFEDBF]">😺 NekoTerm</h1>

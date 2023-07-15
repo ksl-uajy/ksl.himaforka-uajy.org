@@ -7,7 +7,7 @@ import { FC, useEffect, useState } from "react";
 const Modul: FC = () => {
   return (
     <>
-      <div className="max-w-screen relative mx-auto py-6 md:py-20">
+      <div className="max-w-screen relative mx-auto py-6">
         <div className="px-32">
           <h1 className="font-rubik text-xl font-semibold text-[#FDFFB0] md:text-3xl">
             KSL belajar apa aja sihh?
@@ -109,7 +109,7 @@ const Modul: FC = () => {
               </p>
             </div>
           </div>
-          <button className="absolute right-[5.7rem] h-16 w-16 items-center justify-center rounded-full bg-[#5A5A3B] sm:invisible lg:visible">
+          <button className="absolute right-[5.7rem] h-16 w-16 items-center justify-center rounded-full bg-[#5A5A3B]">
             <Image alt="Arrow" className="mx-auto" src={Arrow}></Image>
           </button>
         </div>

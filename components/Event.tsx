@@ -3,10 +3,10 @@ import Image from "next/image";
 import React from "react";
 import { FC, useEffect, useState } from "react";
 
-function Event() {
+const Event: FC = () => {
   return (
     <>
-      <div className="mx-auto px-[7.7rem] py-20">
+      <div className="mx-auto py-16 px-[7.7rem]">
         <h1 className="px-1.5 font-rubik text-3xl font-bold text-[#FAFFC4]">Event</h1>
         <div className="my-10 h-[42rem] w-[30rem] rounded-xl bg-white p-10 shadow-2xl dark:bg-[#353520]">
           <a href="#">
@@ -23,6 +23,6 @@ function Event() {
       </div>
     </>
   );
-}
+};
 
 export default Event;
