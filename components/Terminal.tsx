@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 // import {render, Text} from 'ink';
 import { FC, useEffect, useState } from "react";
@@ -40,9 +41,9 @@ const Terminal: FC = () => {
               <span className="text-[#D4FFBA]">{">"} ksl</span> info
               <br />
               Untuk informasi lebih lanjut, klik{" "}
-              <a className="underline" href="#">
+              <Link className="underline" href="/kegiatan">
                 disini.
-              </a>
+              </Link>
               <br />
               <br />
               <span className="text-[#D4FFBA]">{">"} ksl</span> daftar <br />

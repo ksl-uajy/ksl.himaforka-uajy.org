@@ -1,11 +1,8 @@
 import About from "@/components/About";
 import AboutUs from "@/components/AboutUs";
 import Contact from "@/components/Contact";
-import Event from "@/components/Event";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-import Gallery from "@/components/Gallery";
-import Modul from "@/components/Modul";
 import Navbar from "@/components/Navbar";
 import Teams from "@/components/Teams";
 import Terminal from "@/components/Terminal";
@@ -32,13 +29,6 @@ const Home = () => {
         <About />
         <Contact />
         <Footer />
-
-        <Modul />
-        <Gallery />
-        <Event />
-
-        <AboutUs />
-        <Teams />
       </div>
     </>
   );
