@@ -7,109 +7,109 @@ import { FC, useEffect, useState } from "react";
 const Modul: FC = () => {
   return (
     <>
-      <div className="max-w-screen relative mx-auto py-6">
-        <div className="px-32">
-          <h1 className="font-rubik text-xl font-semibold text-[#FDFFB0] md:text-3xl">
+      <div className="max-w-screen container relative mx-auto py-6 pl-6 md:pl-0">
+        <div className="">
+          <h1 className="font-rubik text-3xl font-bold text-[#FDFFB0]">
             KSL belajar apa aja sihh?
           </h1>
         </div>
-        <div className="relative mx-auto items-center justify-center lg:flex lg:gap-6">
-          <div className="my-10 max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24]">
+        <div className="relative mx-auto items-center justify-center md:flex md:gap-6">
+          <div className="my-10 w-9/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl shadow-2xl"
+                className="mx-auto mb-8 mt-5 h-60 w-60 rounded-xl shadow-2xl md:mt-16"
                 src={FotoTest}
               />
             </a>
             <div className="px-6 pb-8 text-center font-rubik">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
+                <h5 className="mb-2 text-lg font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4] md:text-2xl">
                   Ngeheck NASA
                 </h5>
               </a>
-              <p className="mb-3 text-lg text-gray-700 dark:text-[#FAFFC4]">
+              <p className="mb-3 text-base text-gray-700 dark:text-[#FAFFC4] md:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iusto.
               </p>
             </div>
           </div>
-          <div className="my-10 max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24]">
+          <div className="my-10 w-9/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-16 h-60 w-60 rounded-xl shadow-2xl"
+                className="mx-auto mb-8 mt-5 h-60 w-60 rounded-xl shadow-2xl md:mt-16"
                 src={FotoTest}
               />
             </a>
             <div className="px-6 pb-8 text-center font-rubik">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
+                <h5 className="mb-2 text-lg font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4] md:text-2xl">
                   Ngeheck NASA
                 </h5>
               </a>
-              <p className="font-base mb-3 text-lg text-gray-700 dark:text-[#FAFFC4]">
+              <p className="font-base mb-3 text-base text-gray-700 dark:text-[#FAFFC4] md:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iusto.
               </p>
             </div>
           </div>
-          <div className="my-10 max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24]">
+          <div className="my-10 w-9/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-16 h-60 w-60 rounded-xl shadow-2xl"
+                className="mx-auto mb-8 mt-5 h-60 w-60 rounded-xl shadow-2xl md:mt-16"
                 src={FotoTest}
               />
             </a>
             <div className="px-6 pb-8 text-center font-rubik">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
+                <h5 className="mb-2 text-lg font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4] md:text-2xl">
                   Ngeheck NASA
                 </h5>
               </a>
-              <p className="font-base mb-3 text-lg text-gray-700 dark:text-[#FAFFC4]">
+              <p className="font-base mb-3 text-base text-gray-700 dark:text-[#FAFFC4] md:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iusto.
               </p>
             </div>
           </div>
-          <div className="my-10 max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24]">
+          <div className="my-10 w-9/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl shadow-2xl"
+                className="mx-auto mb-8 mt-5 h-60 w-60 rounded-xl shadow-2xl md:mt-16"
                 src={FotoTest}
               />
             </a>
             <div className="px-6 pb-8 text-center font-rubik">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
+                <h5 className="mb-2 text-lg font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4] md:text-2xl">
                   Ngeheck NASA
                 </h5>
               </a>
-              <p className="font-base mb-3 text-lg text-gray-700 dark:text-[#FAFFC4]">
+              <p className="font-base mb-3 text-base text-gray-700 dark:text-[#FAFFC4] md:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iusto.
               </p>
             </div>
           </div>
-          <div className="my-10 max-w-sm rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24]">
+          <div className="my-10 w-9/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-16  h-60 w-60 rounded-xl shadow-2xl"
+                className="mx-auto mb-8 mt-5 h-60 w-60 rounded-xl shadow-2xl md:mt-16"
                 src={FotoTest}
               />
             </a>
             <div className="px-6 pb-8 text-center font-rubik">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4]">
+                <h5 className="mb-2 text-lg font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4] md:text-2xl">
                   Ngeheck NASA
                 </h5>
               </a>
-              <p className="font-base mb-3 text-lg text-gray-700 dark:text-[#FAFFC4]">
+              <p className="font-base mb-3 text-base text-gray-700 dark:text-[#FAFFC4] md:text-lg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iusto.
               </p>
             </div>
           </div>
-          <button className="absolute right-[5.7rem] h-16 w-16 items-center justify-center rounded-full bg-[#5A5A3B]">
+          <button className="invisible absolute h-16 w-16 items-center justify-center rounded-full bg-[#5A5A3B] md:visible md:-right-4">
             <Image alt="Arrow" className="mx-auto" src={Arrow}></Image>
           </button>
         </div>

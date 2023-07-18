@@ -4,7 +4,7 @@ import React from "react";
 
 const Registration = () => {
   return (
-    <div className="container px-6 font-rubik md:mx-auto">
+    <div className="container px-6 font-rubik md:mx-auto md:px-0">
       <h1 className="py-10 text-xl font-bold text-[#FDFFB0] md:text-3xl">
         Pendaftaran Anggota KSL 2023-2024
       </h1>
