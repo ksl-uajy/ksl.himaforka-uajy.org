@@ -4,24 +4,26 @@ import React from "react";
 
 const Registration = () => {
   return (
-    <div className="container mx-auto font-rubik">
-      <h1 className="py-10 text-3xl font-bold text-[#FDFFB0]">Pendaftaran Anggota KSL 2023-2024</h1>
-      <div className="flex gap-10">
-        <div className="h-[32rem] w-[27rem] bg-white"></div>
-        <div className="text-xl font-semibold text-[#FDFFB0]">
-          <h1>Step 1: Login dengan e-mail student</h1>
+    <div className="container px-6 font-rubik md:mx-auto">
+      <h1 className="py-10 text-xl font-bold text-[#FDFFB0] md:text-3xl">
+        Pendaftaran Anggota KSL 2023-2024
+      </h1>
+      <div className="gap-10 md:flex">
+        <div className="h-[26rem] w-80 bg-white md:h-[32rem] md:w-[27rem]"></div>
+        <div className="py-12 text-base text-[#FDFFB0] md:py-0 md:text-xl">
+          <h1 className="font-semibold">Step 1: Login dengan e-mail student</h1>
           <div className="my-4 flex h-14 w-[17rem] items-center gap-3 bg-[#27648F] text-center">
             <div className="flex h-full w-14 items-center justify-center bg-[#5BB3F2]">
               <Image alt="Outlook" className="" src={Icon} />
             </div>
             <h1 className="text-sm text-[#ABD7FF]">Login dengan e-mail student</h1>
           </div>
-          <h1 className="pt-6 pb-3">Step 2: Lengkapi data diri</h1>
+          <h1 className="pt-6 pb-3 font-semibold">Step 2: Lengkapi data diri</h1>
           <form className="">
             <div className="mb-4">
               <label className="mx-2 mb-2 block text-sm text-[#FDFFB0]">Nama</label>
               <input
-                className="focus:shadow-outline w-full appearance-none rounded-full border-2 border-[#FDFFB0] bg-transparent py-3 px-6 leading-tight text-[#FDFFB0] shadow focus:outline-none"
+                className="focus:shadow-outline w-10/12 appearance-none rounded-full border-2 border-[#FDFFB0] bg-transparent py-3 px-6 leading-tight text-[#FDFFB0] shadow focus:outline-none md:w-full"
                 id="Nama"
                 // placeholder="Nama"
                 type="text"
@@ -30,7 +32,7 @@ const Registration = () => {
             <div className="mb-4">
               <label className="mx-2 mb-2 block text-sm text-[#FDFFB0]">No. Telp (WA)</label>
               <input
-                className="focus:shadow-outline w-full appearance-none rounded-full border-2 border-[#FDFFB0] bg-transparent py-3 px-6 leading-tight text-[#FDFFB0] shadow focus:outline-none"
+                className="focus:shadow-outline w-10/12 appearance-none rounded-full border-2 border-[#FDFFB0] bg-transparent py-3 px-6 leading-tight text-[#FDFFB0] shadow focus:outline-none md:w-full"
                 id="Telepon"
                 // placeholder="No. Telp/WA"
                 type="text"
