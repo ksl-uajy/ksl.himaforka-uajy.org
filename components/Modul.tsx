@@ -13,12 +13,12 @@ const Modul: FC = () => {
             KSL belajar apa aja sihh?
           </h1>
         </div>
-        <div className="relative mx-auto items-center justify-center md:flex md:gap-6">
-          <div className="my-10 w-9/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
+        <div className="relative mx-auto flex items-center justify-center md:gap-6">
+          <div className="my-10 w-8/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
             <a href="#">
               <Image
                 alt="test"
-                className="mx-auto mb-8 mt-5 h-60 w-60 rounded-xl shadow-2xl md:mt-16"
+                className="mx-auto mb-8 mt-5 h-40 w-40 rounded-xl shadow-2xl md:mt-16 md:h-60 md:w-60"
                 src={FotoTest}
               />
             </a>

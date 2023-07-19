@@ -1,8 +1,9 @@
 import Icon from "@/public/outlook.svg";
 import Image from "next/image";
 import React from "react";
+import { FC, useEffect, useState } from "react";
 
-const Registration = () => {
+const Registration: FC = () => {
   return (
     <div className="container px-6 font-rubik md:mx-auto md:px-0">
       <h1 className="py-10 text-xl font-bold text-[#FDFFB0] md:text-3xl">
@@ -12,11 +13,11 @@ const Registration = () => {
         <div className="h-[26rem] w-80 bg-white md:h-[32rem] md:w-[27rem]"></div>
         <div className="py-12 text-base text-[#FDFFB0] md:py-0 md:text-xl">
           <h1 className="font-semibold">Step 1: Login dengan e-mail student</h1>
-          <div className="my-4 flex h-14 w-[17rem] items-center gap-3 bg-[#27648F] text-center">
-            <div className="flex h-full w-14 items-center justify-center bg-[#5BB3F2]">
+          <div className="my-4 flex h-14 w-[17rem] items-center gap-3 bg-[#1976BA] text-center">
+            <div className="flex h-full w-14 items-center justify-center bg-[#C6E7FF]">
               <Image alt="Outlook" className="" src={Icon} />
             </div>
-            <h1 className="text-sm text-[#ABD7FF]">Login dengan e-mail student</h1>
+            <h1 className="text-sm text-[#D8ECFF]">Login dengan e-mail student</h1>
           </div>
           <h1 className="pt-6 pb-3 font-semibold">Step 2: Lengkapi data diri</h1>
           <form className="">
