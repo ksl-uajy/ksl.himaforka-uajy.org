@@ -1,41 +1,26 @@
+import closeIcon from "@/public/closeIcon.png";
 import Logo from "@/public/kslLogo.svg";
+import menuNav from "@/public/menuIcon.png";
 import Image from "next/image";
+import Link from "next/link";
 import { FC, useEffect, useState } from "react";
 
 const Header: FC = () => {
   const [isHamburgerActive, setHamburgerActive] = useState(false);
+
   const handleHamburger = () => {
     setHamburgerActive(!isHamburgerActive);
   };
 
   return (
     <header className="font-rubik text-white">
-      <div className="Container mx-auto flex items-center justify-between px-6 py-4 lg:px-24">
-        <div className="">
-          <Image alt="Logo KSL" className="w-[150px][] md:w-[220px]" src={Logo} />
+      <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-4 py-4 lg:px-24">
+        <div>
+          <Image alt="Logo KSL" className="w-[150px] md:w-[220px]" src={Logo} />
         </div>
         {/* HumburgerMenu */}
-        <button
-          className={isHamburgerActive ? "space-y-0 md:hidden" : "space-y-1 md:hidden"}
-          onClick={handleHamburger}
-        >
-          <div
-            className={
-              isHamburgerActive
-                ? "h-[2px] w-[25px] translate-y-px rotate-45 bg-slate-100 transition duration-300 ease-in-out"
-                : "h-[2px] w-[30px] bg-slate-100"
-            }
-          ></div>
-          <div className={isHamburgerActive ? "hidden" : "h-[2px] w-[30px] bg-slate-100"}></div>
-          <div
-            className={
-              isHamburgerActive
-                ? "h-[2px] w-[25px] -translate-y-px -rotate-45 bg-slate-100 transition duration-300 ease-in-out"
-                : "h-[2px] w-[30px] bg-slate-100"
-            }
-          ></div>
-        </button>
-        <nav className="hidden pr-5 text-white dark:text-white md:block lg:text-lg">
+        <Image alt="humburger" className="w-7 lg:hidden " onClick={handleHamburger} src={menuNav} />
+        <nav className="hidden pr-5 text-white dark:text-white lg:block lg:text-lg">
           <ul className="flex space-x-4">
             <li>
               <a href="">Kegiatan</a>
@@ -46,6 +31,34 @@ const Header: FC = () => {
           </ul>
         </nav>
       </div>
+      <nav className="lg:hidden">
+        <div
+          className={
+            isHamburgerActive
+              ? "fixed top-0 z-50 grid h-1/3 w-screen place-content-center gap-y-7 rounded-b-xl border-black bg-[#4A4E24]"
+              : "hidden"
+          }
+        >
+          <Image
+            alt="humburger"
+            className="mx-auto w-6"
+            onClick={handleHamburger}
+            src={closeIcon}
+          />
+          <div>
+            <Link href="/kegiatan">
+              <div className="my-4 flex h-10 w-44 items-center justify-center rounded-full border-2 px-4  ">
+                Kegiatan
+              </div>
+            </Link>
+            <Link href="/tentang">
+              <div className="my-2 flex h-10 w-44 items-center justify-center rounded-full border-2 px-4">
+                Tentang KSL
+              </div>
+            </Link>
+          </div>
+        </div>
+      </nav>
     </header>
   );
 };
