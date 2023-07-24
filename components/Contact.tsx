@@ -6,18 +6,18 @@ import { FC, useEffect, useState } from "react";
 const Contact: FC = () => {
   return (
     <>
-      <div className="container mx-auto max-w-screen-sm py-12 font-rubik">
+      <div className="container mx-auto max-w-screen-sm py-8 font-rubik lg:py-12">
         <div className="flex items-center justify-center">
-          <div className="py-6 text-center">
+          <div className="text-center lg:py-6">
             <p className="text-xl font-bold text-[#C3FFF4] lg:text-3xl">Ada pertanyaan?</p>
             <p className="py-3 text-white lg:text-lg">Kami siap membantu Anda</p>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-6">
-          <div className="flex h-[80px] w-[200px] gap-6 rounded-2xl bg-[#213E2C] py-5 pl-5">
+        <div className="items-center justify-center gap-6 lg:flex">
+          <div className="my-3 mx-auto flex h-[100px] w-[260px] gap-6 rounded-2xl bg-[#213E2C] py-5 pl-5 lg:my-0">
             <Image alt="Foto dummy" className="h-16 w-16 flex-initial rounded-full" src={Foto} />
             <div className="text-[#B4FFD2]">
-              <h1 className="pb-2 font-bold">Kak nama</h1>
+              <h1 className="pb-2 font-medium">Kak Alexis</h1>
               <a href="#">
                 <div className="h-6 w-10 rounded-md bg-[#34694A]">
                   <p className="text-center">WA</p>
@@ -25,10 +25,10 @@ const Contact: FC = () => {
               </a>
             </div>
           </div>
-          <div className="flex h-[80px] w-[200px] gap-6 rounded-2xl bg-[#213E2C] py-5 pl-5">
+          <div className="my-3 mx-auto flex h-[100px] w-[260px] gap-6 rounded-2xl bg-[#213E2C] py-5 pl-5 lg:my-0">
             <Image alt="Foto dummy" className="h-16 w-16 flex-initial rounded-full" src={Foto} />
             <div className="text-[#B4FFD2]">
-              <h1 className="pb-2 font-bold">Kak nama</h1>
+              <h1 className="pb-2 font-medium">Kak nama</h1>
               <a href="#">
                 <div className="h-6 w-10 rounded-md bg-[#34694A]">
                   <p className="text-center">WA</p>
