@@ -16,20 +16,12 @@ const Terminal: FC = () => {
                 <span className="text-[#D4FFBA]">{">"}ksl</span> art
               </p>
               <br />
-              <p className="text-[#C3FFF4]">
-                &nbsp; /----------- &emsp;
-                ▓&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓{" "}
-                <br />/ &emsp; &emsp; 0&nbsp; o &nbsp;&nbsp;\ &ensp;
-                ▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓{" "}
-                <br />| &emsp; &emsp; &emsp; &nbsp; &nbsp;{">"}| &ensp;
-                ▓▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;▓▓▓▓&nbsp;&ensp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓{" "}
-                <br />
-                |~~~~~~~~| &ensp;
-                ▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;▓&nbsp;&ensp;▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&emsp;&emsp;&emsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓{" "}
-                <br />
-                -------------- &nbsp;&nbsp;
-                ▓&nbsp;&ensp;&nbsp;&ensp;▓&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;&ensp;&nbsp;
-                &nbsp;▓▓▓▓&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▓&nbsp;&nbsp;&nbsp;▓▓▓▓&ensp;&ensp;&nbsp;&nbsp;▓▓
+              <p className="font-mono text-[#C3FFF4]">
+                /-------\   ▓  ▓  ▓▓▓▓  ▓           ▓  ▓  ▓▓▓▓     ▓  ▓  ▓<br></br>
+                |    0 o \  ▓ ▓   ▓     ▓           ▓  ▓  ▓  ▓     ▓  ▓  ▓<br></br>
+                |       &gt;|  ▓▓    ▓▓▓▓  ▓    ▓▓▓▓   ▓  ▓  ▓▓▓▓     ▓  ▓▓▓▓<br></br>
+                |~~~~~~~~|  ▓ ▓      ▓  ▓           ▓  ▓  ▓  ▓     ▓    ▓ <br></br>
+                ----------  ▓  ▓  ▓▓▓▓  ▓▓▓▓        ▓▓▓▓  ▓  ▓  ▓▓▓▓   ▓▓ <br></br>
               </p>
               <br />
             </h2>
