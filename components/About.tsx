@@ -150,7 +150,7 @@ const About: FC = () => {
         {/* SubSection 1 */}
         <div className="relative flex w-full overflow-hidden" style={{ height: imageHeigth }}>
           <div
-            className="absoulute left-0 z-40 border-r-transparent border-t-[#2F2B15]"
+            className="left-0 z-40 border-r-transparent border-t-[#2F2B15]"
             style={{ width: compWidth, borderRightWidth: borderX, borderTopWidth: borderY }}
           >
             <div className="absolute top-8 w-[560px] pl-10 font-rubik text-[#FFF3B0] xl:top-14 xl:w-[650px] xl:pl-16 2xl:top-20 2xl:w-[920px] 2xl:pl-24">
