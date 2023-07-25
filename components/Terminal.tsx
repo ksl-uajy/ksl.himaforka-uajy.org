@@ -6,14 +6,14 @@ const Terminal: FC = () => {
   return (
     <>
       <div className="max-w-screen mx-auto flex items-center justify-center py-6">
-        <div className="w-[44unded-xl h-[33rem] rounded-xl bg-[#102C27] leading-[18.5px] lg:w-[80rem]">
+        <div className="w-[44unded-xl h-[30rem] rounded-xl bg-[#102C27] leading-[18.5px] lg:w-[64rem]">
           <div className="h-10 w-full rounded-t-xl bg-[#20443E]">
-            <h1 className="px-6 py-2 font-rubik text-[#FFEDBF]">😺 NekoTerm</h1>
+            <h1 className="px-6 py-3 font-rubik text-[#FFEDBF]">😺 NekoTerm</h1>
           </div>
           <div className="px-10">
             <h2 className="py-4 text-[#ECECEC]">
               <p className="font-mono text-lg lg:text-xl">
-                <span className="text-[#D4FFBA]">{">"}ksl</span> art
+                <span className="text-[#D4FFBA]">{"> "}ksl</span> art
               </p>
               <br />
               <p className="font-mono text-[#C3FFF4]">
