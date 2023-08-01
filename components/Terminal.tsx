@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 import Link from "next/link";
 import React from "react";
 // import {render, Text} from 'ink';
@@ -6,10 +7,10 @@ import { FC, useEffect, useState } from "react";
 const Terminal: FC = () => {
   return (
     <>
-      <div className="mx-auto flex items-center justify-center py-6">
-        <div className="h-[30rem] w-11/12 rounded-xl bg-[#102C27] leading-[18.5px] md:h-[32rem] md:w-9/12 lg:w-[80rem]">
-          <div className="h-10 w-full rounded-t-xl bg-[#20443E]">
-            <h1 className="px-6 py-2 font-rubik text-[#FFEDBF]">😺 NekoTerm</h1>
+      <div className="mx-auto flex items-center justify-center py-10">
+        <div className="h-[30rem] w-11/12 rounded-2xl bg-[#102C27] leading-[18.5px] md:h-[rem] md:w-8/12">
+          <div className="h-10 w-full rounded-t-2xl bg-[#20443E]">
+            <h1 className="px-6 py-3 font-rubik text-[#FFEDBF]">😺 NekoTerm</h1>
           </div>
           <div className="px-4 md:px-10">
             <h2 className="py-4 text-[#ECECEC]">
@@ -29,22 +30,29 @@ const Terminal: FC = () => {
                 <br />
                 ----------&ensp;&nbsp;&nbsp;▓&nbsp;&ensp;▓&nbsp;&ensp;▓▓▓▓&nbsp;&ensp;▓▓▓▓&nbsp;&nbsp;&nbsp;&ensp;&nbsp;&nbsp;&nbsp;&ensp;▓▓▓▓&nbsp;&nbsp;▓&nbsp;&nbsp;▓&nbsp;&nbsp;▓▓▓▓&ensp;&ensp;&nbsp;▓▓
               </p>
-              <br />
+
+              {/* <p className="font-mono text-lg text-[#C3FFF4]">
+                /-------\   ▓  ▓  ▓▓▓▓  ▓    <br></br>
+                |    0 o \  ▓ ▓   ▓     ▓    <br></br>
+                |       &gt;|  ▓▓    ▓▓▓▓  ▓ <br></br>
+                |~~~~~~~~|  ▓ ▓      ▓  ▓    <br></br>
+                ----------  ▓  ▓  ▓▓▓▓  ▓▓▓▓ <br></br>
+              </p> */}
             </h2>
-            <h2 className="font-mono text-sm text-[#ECECEC] md:text-lg lg:text-xl">
-              <span className="text-[#C3FFF4]">Learning linux is fun!</span>
-              <br />
-              <br />
-              <span className="text-[#D4FFBA]">{">"} ksl</span> info
-              <br />
-              Untuk informasi lebih lanjut, klik{" "}
-              <Link className="underline" href="/kegiatan">
-                disini.
-              </Link>
-              <br />
-              <br />
-              <span className="text-[#D4FFBA]">{">"} ksl</span> daftar <br />
-              Pendaftaran telah ditutup.
+            <h2 className="font-mono text-sm text-[#ECECEC] md:text-lg">
+              <p className="text-[#C3FFF4]">Learning linux is fun!</p>
+              <p className="py-4">
+                <span className="text-[#D4FFBA]">{">"} ksl</span> info
+                <br />
+                Untuk informasi lebih lanjut, klik{" "}
+                <Link className="hover:underline" href="/kegiatan">
+                  disini.
+                </Link>
+              </p>
+              <p>
+                <span className="text-[#D4FFBA]">{">"} ksl</span> daftar <br />
+                Pendaftaran telah ditutup.
+              </p>
             </h2>
           </div>
         </div>

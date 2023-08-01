@@ -7,111 +7,177 @@ import { FC, useEffect, useState } from "react";
 const Modul: FC = () => {
   return (
     <>
-      <div className="max-w-screen container relative mx-auto py-6 pl-6 md:pl-0">
-        <div className="">
+      <div className="mx-auto py-6 pl-6 md:pl-0">
+        <div className="container mx-6 md:mx-24">
           <h1 className="font-rubik text-3xl font-bold text-[#FDFFB0]">
             KSL belajar apa aja sihh?
           </h1>
         </div>
-        <div className="relative mx-auto flex items-center justify-center md:gap-6">
-          <div className="my-10 w-8/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
-            <a href="#">
-              <Image
-                alt="test"
-                className="mx-auto mb-8 mt-5 h-40 w-40 rounded-xl shadow-2xl md:mt-16 md:h-60 md:w-60"
-                src={FotoTest}
-              />
+        <div
+          className="flex-no-wrap scrolling-touch no-scrollbar mx-24 mb-8 flex items-start overflow-x-scroll"
+          id="scrollContainer"
+        >
+          <div className="my-10 mr-8 w-2/3 flex-none rounded-lg border border-[#E3DE69] bg-[#4A4E24] px-6 pt-6 md:w-1/5 md:pb-4">
+            <a className="space-y-4" href="#">
+              <div className="aspect-w-16 aspect-h-9">
+                <Image
+                  alt=""
+                  className="mx-auto mt-4 h-48 w-48 rounded-xl object-cover"
+                  src={FotoTest}
+                />
+              </div>
+              <div className="px-4 py-2 text-center">
+                <div className="space-y-1 text-lg font-medium leading-6">
+                  <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
+                    Some title goes here
+                  </h3>
+                </div>
+                <div className="text-lg">
+                  <p className="font-base mb-3 text-base text-[#FAFFC4] md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
             </a>
-            <div className="px-6 pb-8 text-center font-rubik">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4] md:text-2xl">
-                  Ngeheck NASA
-                </h5>
-              </a>
-              <p className="mb-3 text-base text-gray-700 dark:text-[#FAFFC4] md:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iusto.
-              </p>
-            </div>
           </div>
-          <div className="my-10 w-9/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
-            <a href="#">
-              <Image
-                alt="test"
-                className="mx-auto mb-8 mt-5 h-60 w-60 rounded-xl shadow-2xl md:mt-16"
-                src={FotoTest}
-              />
+          <div className="my-10 mr-8 w-2/3 flex-none rounded-lg border border-[#E3DE69] bg-[#4A4E24] px-6 pt-6 md:w-1/5 md:pb-4">
+            <a className="space-y-4" href="#">
+              <div className="aspect-w-16 aspect-h-9">
+                <Image
+                  alt=""
+                  className="mx-auto mt-4 h-48 w-48 rounded-xl object-cover"
+                  src={FotoTest}
+                />
+              </div>
+              <div className="px-4 py-2 text-center">
+                <div className="space-y-1 text-lg font-medium leading-6">
+                  <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
+                    Some title goes here
+                  </h3>
+                </div>
+                <div className="text-lg">
+                  <p className="font-base mb-3 text-base text-[#FAFFC4] md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
             </a>
-            <div className="px-6 pb-8 text-center font-rubik">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4] md:text-2xl">
-                  Ngeheck NASA
-                </h5>
-              </a>
-              <p className="font-base mb-3 text-base text-gray-700 dark:text-[#FAFFC4] md:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iusto.
-              </p>
-            </div>
           </div>
-          <div className="my-10 w-9/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
-            <a href="#">
-              <Image
-                alt="test"
-                className="mx-auto mb-8 mt-5 h-60 w-60 rounded-xl shadow-2xl md:mt-16"
-                src={FotoTest}
-              />
+          <div className="my-10 mr-8 w-2/3 flex-none rounded-lg border border-[#E3DE69] bg-[#4A4E24] px-6 pt-6 md:w-1/5 md:pb-4">
+            <a className="space-y-4" href="#">
+              <div className="aspect-w-16 aspect-h-9">
+                <Image
+                  alt=""
+                  className="mx-auto mt-4 h-48 w-48 rounded-xl object-cover"
+                  src={FotoTest}
+                />
+              </div>
+              <div className="px-4 py-2 text-center">
+                <div className="space-y-1 text-lg font-medium leading-6">
+                  <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
+                    Some title goes here
+                  </h3>
+                </div>
+                <div className="text-lg">
+                  <p className="font-base mb-3 text-base text-[#FAFFC4] md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
             </a>
-            <div className="px-6 pb-8 text-center font-rubik">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4] md:text-2xl">
-                  Ngeheck NASA
-                </h5>
-              </a>
-              <p className="font-base mb-3 text-base text-gray-700 dark:text-[#FAFFC4] md:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iusto.
-              </p>
-            </div>
           </div>
-          <div className="my-10 w-9/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
-            <a href="#">
-              <Image
-                alt="test"
-                className="mx-auto mb-8 mt-5 h-60 w-60 rounded-xl shadow-2xl md:mt-16"
-                src={FotoTest}
-              />
+          <div className="my-10 mr-8 w-2/3 flex-none rounded-lg border border-[#E3DE69] bg-[#4A4E24] px-6 pt-6 md:w-1/5 md:pb-4">
+            <a className="space-y-4" href="#">
+              <div className="aspect-w-16 aspect-h-9">
+                <Image
+                  alt=""
+                  className="mx-auto mt-4 h-48 w-48 rounded-xl object-cover"
+                  src={FotoTest}
+                />
+              </div>
+              <div className="px-4 py-2 text-center">
+                <div className="space-y-1 text-lg font-medium leading-6">
+                  <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
+                    Some title goes here
+                  </h3>
+                </div>
+                <div className="text-lg">
+                  <p className="font-base mb-3 text-base text-[#FAFFC4] md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
             </a>
-            <div className="px-6 pb-8 text-center font-rubik">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4] md:text-2xl">
-                  Ngeheck NASA
-                </h5>
-              </a>
-              <p className="font-base mb-3 text-base text-gray-700 dark:text-[#FAFFC4] md:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iusto.
-              </p>
-            </div>
           </div>
-          <div className="my-10 w-9/12 rounded-lg border border-gray-200 bg-white shadow dark:border-[#E3DE69] dark:bg-[#4A4E24] md:max-w-sm">
-            <a href="#">
-              <Image
-                alt="test"
-                className="mx-auto mb-8 mt-5 h-60 w-60 rounded-xl shadow-2xl md:mt-16"
-                src={FotoTest}
-              />
+          <div className="my-10 mr-8 w-2/3 flex-none rounded-lg border border-[#E3DE69] bg-[#4A4E24] px-6 pt-6 md:w-1/5 md:pb-4">
+            <a className="space-y-4" href="#">
+              <div className="aspect-w-16 aspect-h-9">
+                <Image
+                  alt=""
+                  className="mx-auto mt-4 h-48 w-48 rounded-xl object-cover"
+                  src={FotoTest}
+                />
+              </div>
+              <div className="px-4 py-2 text-center">
+                <div className="space-y-1 text-lg font-medium leading-6">
+                  <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
+                    Some title goes here
+                  </h3>
+                </div>
+                <div className="text-lg">
+                  <p className="font-base mb-3 text-base text-[#FAFFC4] md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
             </a>
-            <div className="px-6 pb-8 text-center font-rubik">
-              <a href="#">
-                <h5 className="mb-2 text-lg font-semibold tracking-tight text-gray-900 dark:text-[#FAFFC4] md:text-2xl">
-                  Ngeheck NASA
-                </h5>
-              </a>
-              <p className="font-base mb-3 text-base text-gray-700 dark:text-[#FAFFC4] md:text-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, iusto.
-              </p>
-            </div>
           </div>
-          <button className="invisible absolute h-16 w-16 items-center justify-center rounded-full bg-[#5A5A3B] md:visible md:-right-4">
-            <Image alt="Arrow" className="mx-auto" src={Arrow}></Image>
-          </button>
+          <div className="my-10 mr-8 w-2/3 flex-none rounded-lg border border-[#E3DE69] bg-[#4A4E24] px-6 pt-6 md:w-1/5 md:pb-4">
+            <a className="space-y-4" href="#">
+              <div className="aspect-w-16 aspect-h-9">
+                <Image
+                  alt=""
+                  className="mx-auto mt-4 h-48 w-48 rounded-xl object-cover"
+                  src={FotoTest}
+                />
+              </div>
+              <div className="px-4 py-2 text-center">
+                <div className="space-y-1 text-lg font-medium leading-6">
+                  <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
+                    Some title goes here
+                  </h3>
+                </div>
+                <div className="text-lg">
+                  <p className="font-base mb-3 text-base text-[#FAFFC4] md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className="my-10 mr-8 w-2/3 flex-none rounded-lg border border-[#E3DE69] bg-[#4A4E24] px-6 pt-6 md:w-1/5 md:pb-4">
+            <a className="space-y-4" href="#">
+              <div className="aspect-w-16 aspect-h-9">
+                <Image
+                  alt=""
+                  className="mx-auto mt-4 h-48 w-48 rounded-xl object-cover"
+                  src={FotoTest}
+                />
+              </div>
+              <div className="px-4 py-2 text-center">
+                <div className="space-y-1 text-lg font-medium leading-6">
+                  <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
+                    Some title goes here
+                  </h3>
+                </div>
+                <div className="text-lg">
+                  <p className="font-base mb-3 text-base text-[#FAFFC4] md:text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </>
