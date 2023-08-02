@@ -7,25 +7,25 @@ import { FC, useEffect, useState } from "react";
 const Gallery: FC = () => {
   return (
     <>
-      <div className="container mx-6 items-center justify-center pl-6 md:mx-24 md:pl-0">
+      <div className="container px-6 md:px-24">
         <h1 className="pb-10 font-rubik text-3xl font-bold text-[#FAFFC4]">Galeri Kegiatan</h1>
-        <div className="w-10/12 flex-none rounded-xl bg-[#353520] lg:flex lg:w-[83rem]">
-          <div className="flex gap-6 p-10 pb-8">
-            <Image alt="test" className="rounded-lg md:h-40 md:w-40" src={FotoTest2} />
-            <Image alt="test" className="rounded-lg md:h-40 md:w-40" src={FotoTest2} />
+        <div className="w-80 rounded-xl bg-[#353520] md:flex md:w-full">
+          <div className="flex gap-6 p-6">
+            <Image alt="test" className="rounded-lg md:h-28 md:w-28" src={FotoTest2} />
+            <Image alt="test" className="rounded-lg md:h-28 md:w-28" src={FotoTest2} />
           </div>
-          <div className="ml-auto flex px-10 md:p-10 md:pb-0">
-            <div className="mb-10 rounded-lg bg-white shadow-2xl dark:bg-[#4A4E24]">
+          <div className="flex p-6 md:ml-auto md:w-5/12">
+            <div className="w-72 rounded-lg bg-[#4A4E24] shadow-2xl md:w-auto">
               <a href="#">
                 <Image
                   alt="test"
-                  className="mx-4 mt-4 mb-4 w-48 rounded-xl shadow-2xl md:w-[46rem] lg:mx-auto lg:mb-8 lg:mt-12 lg:h-96 lg:w-10/12"
+                  className="mx-auto mt-5 mb-4 h-32 w-auto rounded-xl shadow-2xl lg:mx-8 lg:mb-4 lg:mt-8 lg:h-60 lg:w-auto"
                   src={FotoTest3}
                 />
               </a>
-              <div className="px-6 text-center font-rubik">
+              <div className="font-rubik">
                 <a href="#">
-                  <h5 className="pb-2.5 text-lg font-medium text-[#FAFFC4] md:text-xl">
+                  <h5 className="pb-4 text-center text-base font-medium text-[#FAFFC4] md:text-xl">
                     Tutorial Hack Bulan
                   </h5>
                 </a>

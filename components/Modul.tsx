@@ -7,14 +7,10 @@ import { FC, useEffect, useState } from "react";
 const Modul: FC = () => {
   return (
     <>
-      <div className="mx-auto py-6 pl-6 md:pl-0">
-        <div className="container mx-6 md:mx-24">
-          <h1 className="font-rubik text-3xl font-bold text-[#FDFFB0]">
-            KSL belajar apa aja sihh?
-          </h1>
-        </div>
+      <div className="py-6 px-6 md:px-24">
+        <h1 className="font-rubik text-3xl font-bold text-[#FDFFB0]">KSL belajar apa aja sihh?</h1>
         <div
-          className="flex-no-wrap scrolling-touch no-scrollbar mx-24 mb-8 flex items-start overflow-x-scroll"
+          className="flex-no-wrap scrolling-touch no-scrollbar mb-8 flex items-start overflow-x-scroll"
           id="scrollContainer"
         >
           <div className="my-10 mr-8 w-2/3 flex-none rounded-lg border border-[#E3DE69] bg-[#4A4E24] px-6 pt-6 md:w-1/5 md:pb-4">
@@ -29,7 +25,7 @@ const Modul: FC = () => {
               <div className="px-4 py-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
                   <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
-                    Some title goes here
+                    Some title
                   </h3>
                 </div>
                 <div className="text-lg">
@@ -52,7 +48,7 @@ const Modul: FC = () => {
               <div className="px-4 py-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
                   <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
-                    Some title goes here
+                    Some title
                   </h3>
                 </div>
                 <div className="text-lg">
@@ -75,7 +71,7 @@ const Modul: FC = () => {
               <div className="px-4 py-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
                   <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
-                    Some title goes here
+                    Some title
                   </h3>
                 </div>
                 <div className="text-lg">
@@ -98,7 +94,7 @@ const Modul: FC = () => {
               <div className="px-4 py-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
                   <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
-                    Some title goes here
+                    Some title
                   </h3>
                 </div>
                 <div className="text-lg">
@@ -121,7 +117,7 @@ const Modul: FC = () => {
               <div className="px-4 py-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
                   <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
-                    Some title goes here
+                    Some title
                   </h3>
                 </div>
                 <div className="text-lg">
@@ -144,7 +140,7 @@ const Modul: FC = () => {
               <div className="px-4 py-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
                   <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
-                    Some title goes here
+                    Some title
                   </h3>
                 </div>
                 <div className="text-lg">
@@ -167,7 +163,7 @@ const Modul: FC = () => {
               <div className="px-4 py-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
                   <h3 className="mb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
-                    Some title goes here
+                    Some title
                   </h3>
                 </div>
                 <div className="text-lg">
