@@ -8,7 +8,9 @@ const Modul: FC = () => {
   return (
     <>
       <div className="py-6 px-6 md:px-24">
-        <h1 className="font-rubik text-3xl font-bold text-[#FDFFB0]">KSL belajar apa aja sihh?</h1>
+        <h1 className="font-rubik text-xl font-bold text-[#FDFFB0] md:text-3xl">
+          KSL belajar apa aja sihh?
+        </h1>
         <div
           className="flex-no-wrap scrolling-touch no-scrollbar mb-8 flex items-start overflow-x-scroll"
           id="scrollContainer"

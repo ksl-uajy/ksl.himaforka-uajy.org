@@ -5,7 +5,7 @@ import { FC, useEffect, useState } from "react";
 const Footer: FC = () => {
   return (
     <>
-      <div className="mx-auto w-full bg-gradient-to-t from-black to-transparent p-4 font-rubik text-white sm:p-6">
+      <div className="mx-auto w-full bg-gradient-to-t from-black to-transparent px-4 font-rubik text-white md:px-24">
         <div className="container mx-auto w-full p-6 lg:pt-52">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
@@ -14,7 +14,7 @@ const Footer: FC = () => {
               </a>
               <p className="text-black-500 text-sm lg:text-base">Kelompok Studi Linux adalah...</p>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-16 lg:text-base">
+            <div className="grid grid-cols-2 gap-8 text-sm sm:grid-cols-3 sm:gap-16">
               <div>
                 <h2 className="mb-6 font-semibold uppercase">Beranda</h2>
                 <ul className="">

@@ -12,7 +12,7 @@ const Event: FC = () => {
           <a href="#">
             <Image alt="test" className="mx-auto h-auto rounded-xl" src={FotoTest4} />
           </a>
-          <div className="px-6 pt-7 text-center font-rubik">
+          <div className="pt-5 text-center font-rubik">
             <a href="#">
               <h5 className="text-lg font-medium text-[#FAFFC4] md:text-2xl">
                 Lomba Pacar Tercantik
