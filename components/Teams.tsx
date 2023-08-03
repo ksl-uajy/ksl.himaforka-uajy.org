@@ -37,8 +37,8 @@ const Teams: FC = () => {
           <button
             className={
               button1
-                ? "h-10 w-44 rounded-lg border-2 border-[#FDFFB0] text-sm text-[#FDFFB0] md:text-base"
-                : "h-10 w-44 rounded-lg border-2 border-[#85865D] text-sm text-[#85865D] md:text-base"
+                ? "h-10 w-44 rounded-lg border-2 border-[#FDFFB0] text-xs text-[#FDFFB0] md:text-base"
+                : "h-10 w-44 rounded-lg border-2 border-[#85865D] text-xs text-[#85865D] md:text-base"
             }
             id="tahun1"
             onClick={handleClick}
@@ -48,8 +48,8 @@ const Teams: FC = () => {
           <button
             className={
               button2
-                ? "h-10 w-44 rounded-lg border-2 border-[#FDFFB0] text-sm text-[#FDFFB0] md:text-base"
-                : "h-10 w-44 rounded-lg border-2 border-[#85865D] text-sm text-[#85865D] md:text-base"
+                ? "h-10 w-44 rounded-lg border-2 border-[#FDFFB0] text-xs text-[#FDFFB0] md:text-base"
+                : "h-10 w-44 rounded-lg border-2 border-[#85865D] text-xs text-[#85865D] md:text-base"
             }
             id="tahun2"
             onClick={handleClick}
@@ -59,8 +59,8 @@ const Teams: FC = () => {
           <button
             className={
               button3
-                ? "h-10 w-44 rounded-lg border-2 border-[#FDFFB0] text-sm text-[#FDFFB0] md:text-base"
-                : "h-10 w-44 rounded-lg border-2 border-[#85865D] text-sm text-[#85865D] md:text-base"
+                ? "h-10 w-44 rounded-lg border-2 border-[#FDFFB0] text-xs text-[#FDFFB0] md:text-base"
+                : "h-10 w-44 rounded-lg border-2 border-[#85865D] text-xs text-[#85865D] md:text-base"
             }
             id="tahun3"
             onClick={handleClick}
