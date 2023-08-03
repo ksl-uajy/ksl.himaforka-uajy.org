@@ -14,7 +14,7 @@ const Footer: FC = () => {
               </a>
               <p className="text-black-500 text-sm lg:text-base">Kelompok Studi Linux adalah...</p>
             </div>
-            <div className="grid grid-cols-2 gap-8 text-sm sm:grid-cols-3 sm:gap-16">
+            <div className="grid grid-cols-2 gap-2 text-sm md:grid-cols-3 lg:gap-16">
               <div>
                 <h2 className="mb-6 font-semibold uppercase">Beranda</h2>
                 <ul className="">
