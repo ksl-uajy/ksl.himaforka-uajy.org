@@ -5,8 +5,8 @@ import { FC, useEffect, useState } from "react";
 const Footer: FC = () => {
   return (
     <>
-      <div className="mx-auto w-full bg-gradient-to-t from-black to-transparent px-4 font-rubik text-white md:px-24">
-        <div className="container mx-auto w-full p-6 lg:pt-52">
+      <div className="mx-auto h-screen w-full bg-gradient-to-t from-black to-transparent px-4 font-rubik text-white md:px-24">
+        <div className="container sticky top-[100vh] mx-auto w-full p-6 lg:pt-52">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <a className="items-right flex" href="https://ksl.himaforka-uajy.org/">
