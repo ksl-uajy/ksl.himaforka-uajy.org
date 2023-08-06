@@ -12,7 +12,7 @@ const Header: FC = () => {
 
   return (
     <header className="font-rubik text-white">
-      <div className="Container mx-auto flex items-center justify-between py-4 px-4 md:px-24">
+      <div className="Container mx-auto flex items-center justify-between py-4 px-6 lg:px-24">
         <div className="">
           <Image alt="Logo KSL" className="w-[150px][] md:w-[220px]" src={Logo} />
         </div>

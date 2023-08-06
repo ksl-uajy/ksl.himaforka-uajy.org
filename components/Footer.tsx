@@ -5,8 +5,8 @@ import { FC, useEffect, useState } from "react";
 const Footer: FC = () => {
   return (
     <>
-      <div className="mx-auto h-screen w-full bg-gradient-to-t from-black to-transparent px-4 font-rubik text-white md:px-24">
-        <div className="container sticky top-[100vh] mx-auto w-full p-6 lg:pt-52">
+      <div className="w-full bg-gradient-to-t from-black to-transparent px-6 font-rubik text-white lg:px-24">
+        <div className="container sticky top-[100vh] mx-auto w-full py-6 lg:pt-52">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <a className="items-right flex" href="https://ksl.himaforka-uajy.org/">
@@ -17,7 +17,7 @@ const Footer: FC = () => {
             <div className="grid grid-cols-2 gap-2 text-sm md:grid-cols-3 lg:gap-16">
               <div>
                 <h2 className="mb-6 font-semibold uppercase">Beranda</h2>
-                <ul className="">
+                <ul>
                   <li className="mb-4">
                     <a className="hover:underline" href="#">
                       Daftar

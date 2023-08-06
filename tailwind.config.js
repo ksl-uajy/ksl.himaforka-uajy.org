@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         rubik: ["Rubik", "sans-serif"],
+        jetbrains: ["JetBrains Mono", "monospace"],
       },
     },
   },

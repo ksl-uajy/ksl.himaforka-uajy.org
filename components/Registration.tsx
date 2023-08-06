@@ -6,7 +6,7 @@ import { FC, useEffect, useState } from "react";
 const Registration: FC = () => {
   return (
     <>
-      <div className="">
+      <div className="h-screen">
         <div className="container px-6 font-rubik md:px-24 md:pb-32">
           <h1 className="py-10 text-xl font-bold text-[#FDFFB0] md:text-3xl">
             Pendaftaran Anggota KSL 2023-2024
