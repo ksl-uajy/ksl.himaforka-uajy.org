@@ -19,13 +19,6 @@ const Terminal: FC = () => {
                 <span className="text-[#D4FFBA]">{"> "}ksl</span> art
               </p>
               <br />
-              {/* <p className="font-mono text-[7px] text-[#C3FFF4] md:text-[13px] lg:text-lg">
-                /-------\   ▓  ▓  ▓▓▓▓  ▓          ▓  ▓  ▓▓▓▓     ▓  ▓  ▓<br></br>
-                |    0 o \  ▓ ▓   ▓     ▓          ▓  ▓  ▓  ▓     ▓  ▓  ▓<br></br>
-                |       &gt;|  ▓▓    ▓▓▓▓  ▓    ▓▓▓▓  ▓  ▓  ▓▓▓▓     ▓  ▓▓▓▓<br></br>
-                |~~~~~~~~|  ▓ ▓      ▓  ▓          ▓  ▓  ▓  ▓     ▓    ▓ <br></br>
-                ----------  ▓  ▓  ▓▓▓▓  ▓▓▓▓       ▓▓▓▓  ▓  ▓  ▓▓▓▓   ▓▓ <br></br>
-              </p> */}
               <Image alt="KSL-UAJY" className="w-72 pb-3 md:w-96 lg:w-[40rem]" src={KSL} />
             </h2>
             <h2 className="font-mono text-sm text-[#ECECEC] md:text-lg">
