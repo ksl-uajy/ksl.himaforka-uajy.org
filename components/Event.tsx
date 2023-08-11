@@ -14,7 +14,7 @@ const Event: FC = () => {
           </a>
           <div className="pt-5 text-center font-rubik">
             <a href="#">
-              <h5 className="text-lg font-medium text-[#FAFFC4] md:text-2xl">
+              <h5 className="text-lg font-medium text-[#FAFFC4] md:text-xl">
                 Lomba Pacar Tercantik
               </h5>
             </a>

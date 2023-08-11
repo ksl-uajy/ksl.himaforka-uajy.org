@@ -12,12 +12,22 @@ const Gallery: FC = () => {
           Galeri Kegiatan
         </h1>
         <div className="w-full justify-between rounded-xl bg-[#353520] md:flex">
-          <div className="flex gap-6 p-6">
-            <Image alt="test" className="h-24 w-24 rounded-lg md:h-28 md:w-28" src={FotoTest2} />
-            <Image alt="test" className="h-24 w-24 rounded-lg md:h-28 md:w-28" src={FotoTest2} />
+          <div className="grid grid-cols-3 grid-rows-3 gap-2 p-6 md:grid-cols-4 lg:gap-6">
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
+            <Image alt="test" className="h-24 w-24 rounded-lg lg:h-28 lg:w-28" src={FotoTest2} />
           </div>
-          <div className="flex p-6 md:w-7/12 lg:relative lg:h-[30rem]">
-            <div className="right-6 w-72 rounded-lg bg-[#4A4E24] px-4 shadow-2xl md:w-auto lg:absolute lg:px-0">
+          <div className="flex p-6 md:relative md:w-7/12 lg:h-[30rem]">
+            <div className="right-0 mr-6 w-72 rounded-lg bg-[#4A4E24] px-4 shadow-2xl md:absolute md:w-auto lg:absolute lg:px-0">
               <a href="#">
                 <Image
                   alt="test"

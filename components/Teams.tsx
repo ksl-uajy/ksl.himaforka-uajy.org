@@ -54,7 +54,7 @@ const Teams: FC = () => {
             id="tahun2"
             onClick={handleClick}
           >
-            <h1 className="py-1 text-center">KSL 2023-2024</h1>
+            <h1 className="py-1 text-center">KSL 2022-2023</h1>
           </button>
           <button
             className={
@@ -65,7 +65,7 @@ const Teams: FC = () => {
             id="tahun3"
             onClick={handleClick}
           >
-            <h1 className="py-1 text-center">KSL 2023-2024</h1>
+            <h1 className="py-1 text-center">KSL 2021-2022</h1>
           </button>
         </div>
 

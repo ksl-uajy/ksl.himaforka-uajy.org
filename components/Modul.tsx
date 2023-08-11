@@ -1,5 +1,8 @@
 import React from "react";
-import { FC, useEffect, useState } from "react";
+import { FC, useEffect, useRef, useState } from "react";
+import { IconContext } from "react-icons";
+import { BiChevronRight } from "react-icons/bi";
+import { FiChevronLeft } from "react-icons/fi";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -29,13 +32,48 @@ const Modul: FC = () => {
     },
   };
 
+  const ButtonGroup = ({ next, previous, goToSlide, ...rest }: any) => {
+    const {
+      carouselState: { currentSlide },
+    } = rest;
+    return (
+      <IconContext.Provider value={{ color: "#FCFFAF", size: "30px" }}>
+        <div
+          className="carousel-button-group flex w-full items-center 
+        justify-center"
+        >
+          {currentSlide > 0 && (
+            <button
+              className="absolute top-40 -left-7 block rounded-full bg-[#5A5A3B] p-3"
+              onClick={() => previous()}
+            >
+              {" "}
+              <FiChevronLeft />
+            </button>
+          )}
+          <button className="absolute -right-3 top-40 block" onClick={() => next()}>
+            <span className="block rounded-full bg-[#5A5A3B] p-3">
+              <BiChevronRight />
+            </span>
+          </button>
+        </div>
+      </IconContext.Provider>
+    );
+  };
+
   return (
     <>
-      <div className="px-6 pt-16 font-rubik md:px-12 lg:px-24">
+      <div className="px-6 pt-16 font-rubik md:px-12 lg:px-24 lg:pb-6">
         <h1 className="text-xl font-bold text-[#FAFFC4] md:text-3xl">KSL belajar apa aja sihh?</h1>
         <div className="">
-          <div className="hidden lg:block">
-            <Carousel responsive={responsive}>
+          <div className="relative hidden lg:block">
+            <Carousel
+              arrows={false}
+              className=""
+              customButtonGroup={<ButtonGroup />}
+              renderButtonGroupOutside={true}
+              responsive={responsive}
+            >
               <ModulCard />
               <ModulCard />
               <ModulCard />
@@ -49,7 +87,7 @@ const Modul: FC = () => {
             </Carousel>
           </div>
           <div
-            className="flex-no-wrap scrolling-touch no-scrollbar mb-8 flex items-start overflow-x-scroll lg:hidden"
+            className="flex-no-wrap scrolling-touch no-scrollbar mb-8 flex items-start gap-4 overflow-x-scroll lg:hidden"
             id="scrollContainer"
           >
             <ModulCard />
