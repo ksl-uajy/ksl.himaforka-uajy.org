@@ -44,17 +44,20 @@ const Modul: FC = () => {
         >
           {currentSlide > 0 && (
             <button
-              className="absolute top-40 -left-7 block rounded-full bg-[#5A5A3B] p-3"
+              className="absolute top-40 -left-7 block rounded-full bg-[#5A5A3B] p-3 shadow-lg"
               onClick={() => previous()}
             >
               {" "}
               <FiChevronLeft />
             </button>
           )}
-          <button className="absolute -right-3 top-40 block" onClick={() => next()}>
-            <span className="block rounded-full bg-[#5A5A3B] p-3">
-              <BiChevronRight />
-            </span>
+          <button
+            className="absolute -right-3 top-40 block rounded-full bg-[#5A5A3B] p-3 shadow-lg"
+            onClick={() => next()}
+          >
+            {/* <span className="block "> */}
+            <BiChevronRight />
+            {/* </span> */}
           </button>
         </div>
       </IconContext.Provider>
