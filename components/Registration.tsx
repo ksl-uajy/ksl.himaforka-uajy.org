@@ -12,7 +12,7 @@ const Registration: FC = () => {
             Pendaftaran Anggota KSL 2023-2024
           </h1>
           <div className="gap-10 md:flex">
-            <div className="h-[26rem] w-80 bg-white md:h-[32rem] md:w-[27rem]"></div>
+            <div className="h-[26rem] w-80 bg-white md:h-[30rem] md:w-[25rem]"></div>
             <div className="py-12 text-base text-[#FDFFB0] md:py-0 md:text-xl">
               <h1 className="font-semibold">Step 1: Login dengan e-mail student</h1>
               <button>
