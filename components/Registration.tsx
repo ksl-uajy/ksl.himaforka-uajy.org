@@ -3,6 +3,8 @@ import Icon from "@/public/outlook.svg";
 import Image from "next/image";
 import React from "react";
 import { FC, useEffect, useState } from "react";
+import { IconContext } from "react-icons";
+import { BiCheck } from "react-icons/bi";
 
 const Registration: FC = () => {
   const [button, setButton] = useState(false);
@@ -24,9 +26,9 @@ const Registration: FC = () => {
           <h1 className="pb-6 text-xl font-bold text-[#FDFFB0] md:text-3xl">
             Pendaftaran Anggota KSL 2023-2024
           </h1>
-          <div className="gap-10 md:flex">
+          <div className="gap-10 lg:flex">
             <div className="h-[26rem] w-80 bg-white md:h-[30rem] md:w-[25rem]"></div>
-            <div className="py-12 text-base text-[#FDFFB0] md:py-0 md:text-xl">
+            <div className="py-12 text-base text-[#FDFFB0] md:text-xl lg:py-0">
               <h1 className="pb-4 font-semibold">Step 1: Login dengan e-mail student</h1>
               <button>
                 <div className="flex h-14 w-[17rem] items-center gap-3 bg-[#1976BA] text-center">
@@ -58,7 +60,7 @@ const Registration: FC = () => {
                     type="text"
                   />
                 </div>
-                <div className="flex gap-6 py-6">
+                <div className="gap-6 py-6 md:flex">
                   <button
                     className="focus:shadow-outline rounded-full bg-[#E1E46D] py-3 px-8 text-sm text-[#161109] hover:bg-[#e3e84a] focus:outline-none"
                     id="daftar"
@@ -67,9 +69,13 @@ const Registration: FC = () => {
                   >
                     DAFTAR
                   </button>
-                  <div className={button ? "flex w-6/12 gap-3" : "hidden"}>
-                    <Image alt="check" src={Check} />
-                    <h3 className="text-base text-[#B0FFE7]">
+                  <div className={button ? "flex w-full items-center gap-3 md:w-6/12" : "hidden"}>
+                    <IconContext.Provider value={{ color: "#ffffff" }}>
+                      <div className="h-[15px] w-[15px] rounded-full bg-[#76FF9C] md:h-[20px] md:w-[20px]">
+                        <BiCheck />
+                      </div>
+                    </IconContext.Provider>
+                    <h3 className="py-6 text-xs text-[#B0FFE7] md:py-0 lg:text-base">
                       Selamat! Anda telah berhasil mendaftar Anggota Kelompok Studi Linux UAJY
                       2023-2024
                     </h3>
