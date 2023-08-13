@@ -30,7 +30,7 @@ const Teams: FC = () => {
 
   return (
     <>
-      <div className="container px-6 py-16 font-rubik md:px-24">
+      <div className="container px-6 pb-12 font-rubik md:px-24">
         <h1 className="text-xl font-bold text-[#FAFFC4] md:text-3xl">Tim Kami</h1>
 
         <div className="flex gap-4 py-6">

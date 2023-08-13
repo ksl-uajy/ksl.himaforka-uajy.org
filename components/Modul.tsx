@@ -44,7 +44,7 @@ const Modul: FC = () => {
         >
           {currentSlide > 0 && (
             <button
-              className="absolute top-40 -left-7 block rounded-full bg-[#5A5A3B] p-3 shadow-lg"
+              className="absolute top-32 -left-7 block rounded-full bg-[#5A5A3B] p-3 shadow-lg"
               onClick={() => previous()}
             >
               {" "}
@@ -52,12 +52,10 @@ const Modul: FC = () => {
             </button>
           )}
           <button
-            className="absolute -right-3 top-40 block rounded-full bg-[#5A5A3B] p-3 shadow-lg"
+            className="absolute -right-3 top-32 block rounded-full bg-[#5A5A3B] p-3 shadow-lg"
             onClick={() => next()}
           >
-            {/* <span className="block "> */}
             <BiChevronRight />
-            {/* </span> */}
           </button>
         </div>
       </IconContext.Provider>
@@ -66,9 +64,11 @@ const Modul: FC = () => {
 
   return (
     <>
-      <div className="px-6 pt-16 font-rubik md:px-12 lg:px-24 lg:pb-6">
-        <h1 className="text-xl font-bold text-[#FAFFC4] md:text-3xl">KSL belajar apa aja sihh?</h1>
-        <div className="">
+      <div className="px-6 pt-6 pb-12 font-rubik md:px-12 md:pt-16 lg:px-24">
+        <h1 className="pb-6 text-xl font-bold text-[#FAFFC4] md:text-3xl">
+          KSL belajar apa aja sihh?
+        </h1>
+        <div>
           <div className="relative hidden lg:block">
             <Carousel
               arrows={false}
@@ -90,7 +90,7 @@ const Modul: FC = () => {
             </Carousel>
           </div>
           <div
-            className="flex-no-wrap scrolling-touch no-scrollbar mb-8 flex items-start gap-4 overflow-x-scroll lg:hidden"
+            className="flex-no-wrap scrolling-touch no-scrollbar flex items-start gap-4 overflow-x-scroll lg:hidden"
             id="scrollContainer"
           >
             <ModulCard />

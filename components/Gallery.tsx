@@ -7,8 +7,8 @@ import { FC, useEffect, useState } from "react";
 const Gallery: FC = () => {
   return (
     <>
-      <div className="px-6 md:px-12 lg:px-24">
-        <h1 className="pb-10 font-rubik text-xl font-bold text-[#FAFFC4] md:text-3xl">
+      <div className="px-6 pb-12 md:px-12 lg:px-24">
+        <h1 className="pb-6 font-rubik text-xl font-bold text-[#FAFFC4] md:text-3xl">
           Galeri Kegiatan
         </h1>
         <div className="w-full justify-between rounded-xl bg-[#353520] md:flex">
