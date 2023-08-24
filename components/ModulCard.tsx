@@ -1,9 +1,9 @@
-import FotoTest from "@/public/tzy.jpg";
+import FotoTest from "@/public/terminal.jpg";
 import Image from "next/image";
 import React from "react";
 import { FC, useEffect, useState } from "react";
 
-const ModulCard: FC = () => {
+const ModulCard: FC = (props) => {
   return (
     <div className="w-44 flex-none rounded-lg border border-[#E3DE69] bg-[#4A4E24] px-6 pt-6 md:w-2/5 md:pb-4 lg:w-64">
       <a className="space-y-2 md:space-y-4" href="#">
@@ -15,13 +15,11 @@ const ModulCard: FC = () => {
         <div className="px-4 py-2 text-center">
           <div className="text-lg font-medium">
             <h3 className="pb-2 text-lg font-semibold tracking-tight text-[#FAFFC4] md:text-2xl">
-              Some title
+              Coming Soon
             </h3>
           </div>
           <div>
-            <p className="truncate pb-3 text-sm text-[#FAFFC4] hover:text-clip md:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
+            <p className="truncate pb-3 text-sm text-[#FAFFC4] hover:text-clip md:text-lg"></p>
           </div>
         </div>
       </a>

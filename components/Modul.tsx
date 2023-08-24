@@ -44,7 +44,7 @@ const Modul: FC = () => {
         >
           {currentSlide > 0 && (
             <button
-              className="absolute top-32 -left-7 block rounded-full bg-[#5A5A3B] p-3 shadow-lg"
+              className="absolute top-28 -left-7 block rounded-full bg-[#5A5A3B] p-3 shadow-lg"
               onClick={() => previous()}
             >
               {" "}
@@ -52,7 +52,7 @@ const Modul: FC = () => {
             </button>
           )}
           <button
-            className="absolute -right-3 top-32 block rounded-full bg-[#5A5A3B] p-3 shadow-lg"
+            className="absolute -right-3 top-28 block rounded-full bg-[#5A5A3B] p-3 shadow-lg"
             onClick={() => next()}
           >
             <BiChevronRight />
@@ -61,6 +61,83 @@ const Modul: FC = () => {
       </IconContext.Provider>
     );
   };
+
+  const ModulData = [
+    {
+      id: 1,
+      imageurl: "@/public/ethical-hackers.jpg",
+      title: "Ethical Hacking",
+      description:
+        "Ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.",
+    },
+    {
+      id: 2,
+      imageurl: "@/public/subnetting.png",
+      title: "Subnetting",
+      description:
+        "Subnetting adalah teknik yang digunakan untuk memecahkan jaringan menjadi beberapa subjaringan yang lebih kecil.",
+    },
+    {
+      id: 3,
+      imageurl: "@/public/ethical-hackers.jpg",
+      title: "Ethical Hacking",
+      description:
+        "ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.",
+    },
+    {
+      id: 4,
+      imageurl: "@/public/ethical-hackers.jpg",
+      title: "Ethical Hacking",
+      description:
+        "ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.",
+    },
+    {
+      id: 5,
+      imageurl: "@/public/ethical-hackers.jpg",
+      title: "Ethical Hacking",
+      description:
+        "ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.",
+    },
+    {
+      id: 6,
+      imageurl: "@/public/ethical-hackers.jpg",
+      title: "Ethical Hacking",
+      description:
+        "ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.",
+    },
+    {
+      id: 7,
+      imageurl: "@/public/ethical-hackers.jpg",
+      title: "Ethical Hacking",
+      description:
+        "ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.",
+    },
+    {
+      id: 8,
+      imageurl: "@/public/ethical-hackers.jpg",
+      title: "Ethical Hacking",
+      description:
+        "ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.",
+    },
+    {
+      id: 9,
+      imageurl: "@/public/ethical-hackers.jpg",
+      title: "Ethical Hacking",
+      description:
+        "ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.",
+    },
+    {
+      id: 10,
+      imageurl: "@/public/ethical-hackers.jpg",
+      title: "Ethical Hacking",
+      description:
+        "ethical hacking adalah kegiatan peretasan yang dilakukan untuk mencari kelemahan atau ancaman di sebuah komputer dan jaringan.",
+    },
+  ];
+
+  // const Modul = ModulData.map((item) => (
+  //   <ModulCard title={item.title} url={item.imageurl} description={item.description} />
+  // ));
 
   return (
     <>
@@ -87,6 +164,7 @@ const Modul: FC = () => {
               <ModulCard />
               <ModulCard />
               <ModulCard />
+              {/* {Modul} */}
             </Carousel>
           </div>
           <div

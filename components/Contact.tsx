@@ -1,4 +1,5 @@
-import Foto from "@/public/foto_dummy.png";
+import Foto1 from "@/public/ivan.jpg";
+import Foto2 from "@/public/simson.png";
 import Image from "next/image";
 import React from "react";
 import { FC, useEffect, useState } from "react";
@@ -18,30 +19,26 @@ const Contact: FC = () => {
             <Image
               alt="Foto dummy"
               className="my-auto h-16 w-16 flex-initial rounded-full"
-              src={Foto}
+              src={Foto1}
             />
             <div className="my-auto text-[#B4FFD2]">
-              <h1 className="pb-2 font-bold">Kak nama</h1>
-              <a href="#">
-                <div className="h-6 w-10 rounded-md bg-[#34694A]">
-                  <p className="text-center">WA</p>
-                </div>
-              </a>
+              <h1 className="pb-2 font-bold">Ivan Tjandra</h1>
+              <div className="h-5 w-40 rounded-md bg-[#34694A] md:h-6 md:w-44">
+                <p className="text-center text-sm md:text-base">WA: 0882-3287-9973</p>
+              </div>
             </div>
           </div>
           <div className="mx-auto my-6 flex h-28 w-72 gap-6 rounded-2xl bg-[#213E2C] pl-5 md:mx-0 md:h-28 md:w-80">
             <Image
               alt="Foto dummy"
               className="my-auto h-16 w-16 flex-initial rounded-full"
-              src={Foto}
+              src={Foto2}
             />
             <div className="my-auto text-[#B4FFD2]">
-              <h1 className="pb-2 font-bold">Kak nama</h1>
-              <a href="#">
-                <div className="h-6 w-10 rounded-md bg-[#34694A]">
-                  <p className="text-center">WA</p>
-                </div>
-              </a>
+              <h1 className="pb-2 font-bold">Simson</h1>
+              <div className="h-5 w-40 rounded-md bg-[#34694A] md:h-6 md:w-44">
+                <p className="text-center text-sm md:text-base">WA: 0823-9139-0307</p>
+              </div>
             </div>
           </div>
         </div>
