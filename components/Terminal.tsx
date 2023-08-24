@@ -38,7 +38,7 @@ const Terminal: FC = () => {
                 href="https://forms.office.com/Pages/ResponsePage.aspx?id=WQqHiQgU7kCnKiLHAgrHR79Vzd9iUaZCj2yLK6XQpddUNDlRODlLWTNaT0NVQ1M4NktYVFpSSzNVOC4u"
                 target="_blank"
               >
-                <div className="flex h-10 w-24 items-center justify-center rounded-xl bg-[#20443E]">
+                <div className="flex h-10 w-24 items-center justify-center rounded-xl bg-[#20443E] hover:bg-[#1b3b36]">
                   <h1 className="font-bold">Daftar</h1>
                 </div>
                 <div></div>

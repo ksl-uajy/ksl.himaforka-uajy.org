@@ -10,7 +10,7 @@ const Event: FC = () => {
         <h1 className="pb-6 font-rubik text-xl font-bold text-[#FAFFC4] md:text-3xl">Event</h1>
         <div className="w-64 rounded-xl bg-[#353520] p-6 shadow-2xl lg:h-3/6 lg:w-3/12">
           <a href="#">
-            <Image alt="Event" className="mx-auto h-auto rounded-xl shadow-lg" src={EventPic} />
+            <Image alt="Event" className="mx-auto h-96 rounded-xl shadow-lg" src={EventPic} />
           </a>
           <div className="pt-5 text-center font-rubik">
             <a href="#">
