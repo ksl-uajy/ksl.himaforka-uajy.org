@@ -23,10 +23,10 @@ const Header: FC = () => {
         <nav className="hidden pr-5 text-white dark:text-white lg:block lg:text-lg">
           <ul className="flex space-x-4">
             <li>
-              <a href="">Kegiatan</a>
+              <Link href="/kegiatan">Kegiatan</Link>
             </li>
             <li>
-              <a href="">Tentang KSL</a>
+              <Link href="/tentang">Tentang KSL</Link>
             </li>
           </ul>
         </nav>
