@@ -74,7 +74,7 @@ const Teams: FC = () => {
 
   return (
     <>
-      <div className="container px-6 pb-12 font-rubik md:px-24">
+      <div className="px-6 pb-12 font-rubik md:px-12 lg:px-24">
         <h1 className="text-xl font-bold text-[#FAFFC4] md:text-3xl">Tim Kami</h1>
 
         <div className="flex gap-4 py-6">
@@ -113,11 +113,11 @@ const Teams: FC = () => {
           </button>
         </div>
         {/*Pengurus 2022 */}
-        <div className={button1 ? "md:flex md:gap-6" : "hidden"}>
+        <div className={button1 ? "md:grid md:grid-cols-2 md:gap-6 lg:grid-cols-4" : "hidden"}>
           {pengurus2022.map((anggota, index) => (
             <div
+              className="mx-auto mb-3 flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:mb-0 md:h-28 md:w-80"
               key={index}
-              className="mx-auto flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:h-28 md:w-80"
             >
               <Image
                 alt="Foto dummy"
@@ -132,18 +132,18 @@ const Teams: FC = () => {
           ))}
         </div>
         {/* pengurus 2021 */}
-        <div className={button2 ? "md:flex md:gap-6" : "hidden"}>
+        <div className={button2 ? "md:grid md:grid-cols-2 md:gap-6 lg:grid-cols-4" : "hidden"}>
           {pengurus2021.map((anggota, index) => (
             <div
+              className="mx-auto mb-3 flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:mb-0 md:h-28 md:w-80"
               key={index}
-              className="mx-auto flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:h-28 md:w-80"
             >
               <Image
                 alt="Foto dummy"
                 className="my-auto h-14 w-14 flex-initial rounded-full md:h-16 md:w-16"
+                height={50}
                 src={anggota.foto}
                 width={50}
-                height={50}
               />
               <div className="my-auto text-[#FDFFB4]">
                 <h1 className="pb-2 text-base md:text-xl">{anggota.nama}</h1>
@@ -153,18 +153,18 @@ const Teams: FC = () => {
           ))}
         </div>
         {/* pengurus 2020 */}
-        <div className={button3 ? "md:flex md:gap-6" : "hidden"}>
+        <div className={button3 ? "md:grid md:grid-cols-2 md:gap-6 lg:grid-cols-4" : "hidden"}>
           {pengurus2020.map((anggota, index) => (
             <div
+              className="mx-auto mb-3 flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:mb-0 md:h-28 md:w-80"
               key={index}
-              className="mx-auto flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:h-28 md:w-80"
             >
               <Image
                 alt="Foto dummy"
                 className="my-auto h-14 w-14 flex-initial rounded-full md:h-16 md:w-16"
+                height={50}
                 src={anggota.foto}
                 width={50}
-                height={50}
               />
               <div className="my-auto text-[#FDFFB4]">
                 <h1 className="pb-2 text-base md:text-xl">{anggota.nama}</h1>
