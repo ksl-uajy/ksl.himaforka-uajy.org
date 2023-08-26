@@ -73,13 +73,21 @@ const Footer: FC = () => {
                     </a>
                   </li>
                   <li className="pb-2">
-                    <a className="hover:underline" href="#">
+                    <a
+                      className="hover:underline"
+                      href="mailto:ksl@himaforka-uajy.org"
+                      target="_blank"
+                    >
                       E-mail
                     </a>
                   </li>
                   <li>
-                    <a className="hover:underline" href="#">
-                      LinkTree
+                    <a
+                      className="hover:underline"
+                      href="https://github.com/ksl-uajy"
+                      target="_blank"
+                    >
+                      Github
                     </a>
                   </li>
                 </ul>

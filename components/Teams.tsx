@@ -113,11 +113,7 @@ const Teams: FC = () => {
           </button>
         </div>
         {/*Pengurus 2022 */}
-        <div
-          className={
-            button1 ? "md:grid md:grid-cols-2 md:gap-6 lg:grid-cols-3 2xl:grid-cols-4" : "hidden"
-          }
-        >
+        <div className={button1 ? "flex flex-wrap gap-4" : "hidden"}>
           {pengurus2022.map((anggota, index) => (
             <div
               className="mx-auto mb-3 flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:mb-0 md:h-28 md:w-80"
@@ -138,11 +134,7 @@ const Teams: FC = () => {
           ))}
         </div>
         {/* pengurus 2021 */}
-        <div
-          className={
-            button2 ? "md:grid md:grid-cols-2 md:gap-6 lg:grid-cols-3 2xl:grid-cols-4" : "hidden"
-          }
-        >
+        <div className={button2 ? "flex flex-wrap gap-4" : "hidden"}>
           {pengurus2021.map((anggota, index) => (
             <div
               className="mx-auto mb-3 flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:mb-0 md:h-28 md:w-80"
@@ -163,11 +155,7 @@ const Teams: FC = () => {
           ))}
         </div>
         {/* pengurus 2020 */}
-        <div
-          className={
-            button3 ? "md:grid md:grid-cols-2 md:gap-6 lg:grid-cols-3 2xl:grid-cols-4" : "hidden"
-          }
-        >
+        <div className={button3 ? "flex flex-wrap gap-4" : "hidden"}>
           {pengurus2020.map((anggota, index) => (
             <div
               className="mx-auto mb-3 flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:mb-0 md:h-28 md:w-80"
