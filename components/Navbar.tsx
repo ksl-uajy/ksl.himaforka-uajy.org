@@ -16,7 +16,9 @@ const Header: FC = () => {
     <header className="font-rubik text-white">
       <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-4 py-4 lg:px-24">
         <div>
-          <Image alt="Logo KSL" className="w-[150px] md:w-[220px]" src={Logo} />
+          <Link href="/">
+            <Image alt="Logo KSL" className="w-[150px] md:w-[220px]" src={Logo} />
+          </Link>
         </div>
         {/* HumburgerMenu */}
         <Image alt="humburger" className="w-7 lg:hidden " onClick={handleHamburger} src={menuNav} />

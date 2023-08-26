@@ -82,7 +82,7 @@ const Gallery: FC = () => {
               <a href="#">
                 <Image
                   alt="test"
-                  className="mx-auto mb-4 mt-5 h-32 w-auto rounded-xl shadow-2xl lg:mx-8 lg:mb-4 lg:mt-8 lg:h-auto lg:w-[38rem]"
+                  className="mx-auto mb-4 mt-5 h-32 w-auto rounded-xl shadow-2xl lg:mx-8 lg:mb-4 lg:mt-8 lg:h-80 lg:w-11/12"
                   src={BigFoto}
                 />
               </a>

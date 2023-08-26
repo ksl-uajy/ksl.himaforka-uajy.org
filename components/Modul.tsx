@@ -15,11 +15,11 @@ const Modul: FC = () => {
       items: 6,
     },
     desktop: {
-      breakpoint: { max: 1800, min: 1350 },
+      breakpoint: { max: 1800, min: 1366 },
       items: 5,
     },
     tablet: {
-      breakpoint: { max: 1350, min: 1270 },
+      breakpoint: { max: 1366, min: 1270 },
       items: 4,
     },
     tablet2: {
