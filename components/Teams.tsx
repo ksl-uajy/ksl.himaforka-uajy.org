@@ -126,7 +126,9 @@ const Teams: FC = () => {
               <Image
                 alt="Foto dummy"
                 className="my-auto h-14 w-14 flex-initial rounded-full md:h-16 md:w-16"
-                src={Foto}
+                height={50}
+                src={anggota.foto}
+                width={50}
               />
               <div className="my-auto text-[#FDFFB4]">
                 <h1 className="pb-2 text-base md:text-xl">{anggota.nama}</h1>
