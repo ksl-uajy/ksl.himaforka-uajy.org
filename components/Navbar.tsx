@@ -8,11 +8,9 @@ const Header: FC = () => {
     setHamburgerActive(!isHamburgerActive);
   };
 
-  console.log(isHamburgerActive);
-
   return (
     <header className="font-rubik text-white">
-      <div className="Container mx-auto flex items-center justify-between py-4 px-6 lg:px-24">
+      <div className="Container mx-auto flex items-center justify-between px-6 py-4 lg:px-24">
         <div className="">
           <Image alt="Logo KSL" className="w-[150px][] md:w-[220px]" src={Logo} />
         </div>

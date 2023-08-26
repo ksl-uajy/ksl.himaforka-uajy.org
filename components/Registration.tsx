@@ -38,12 +38,12 @@ const Registration: FC = () => {
                   <h1 className="text-sm text-[#D8ECFF]">Login dengan e-mail student</h1>
                 </div>
               </button>
-              <h1 className="pt-6 pb-3 font-semibold">Step 2: Lengkapi data diri</h1>
+              <h1 className="pb-3 pt-6 font-semibold">Step 2: Lengkapi data diri</h1>
               <form>
                 <div className="pb-4">
                   <label className="block px-2 pb-2 text-sm text-[#FDFFB0]">Nama</label>
                   <input
-                    className="focus:shadow-outline w-10/12 appearance-none rounded-full border-2 border-[#FDFFB0] bg-transparent py-3 px-6 leading-tight text-[#FDFFB0] shadow focus:outline-none md:w-80"
+                    className="focus:shadow-outline w-10/12 appearance-none rounded-full border-2 border-[#FDFFB0] bg-transparent px-6 py-3 leading-tight text-[#FDFFB0] shadow focus:outline-none md:w-80"
                     id="Nama"
                     required
                     // placeholder="Nama"
@@ -53,7 +53,7 @@ const Registration: FC = () => {
                 <div className="pb-4">
                   <label className="block px-2 pb-2 text-sm text-[#FDFFB0]">No. Telp (WA)</label>
                   <input
-                    className="focus:shadow-outline w-10/12 appearance-none rounded-full border-2 border-[#FDFFB0] bg-transparent py-3 px-6 leading-tight text-[#FDFFB0] shadow focus:outline-none md:w-80"
+                    className="focus:shadow-outline w-10/12 appearance-none rounded-full border-2 border-[#FDFFB0] bg-transparent px-6 py-3 leading-tight text-[#FDFFB0] shadow focus:outline-none md:w-80"
                     id="Telepon"
                     required
                     // placeholder="No. Telp/WA"
@@ -62,7 +62,7 @@ const Registration: FC = () => {
                 </div>
                 <div className="gap-6 py-6 md:flex">
                   <button
-                    className="focus:shadow-outline rounded-full bg-[#E1E46D] py-3 px-8 text-sm text-[#161109] hover:bg-[#e3e84a] focus:outline-none"
+                    className="focus:shadow-outline rounded-full bg-[#E1E46D] px-8 py-3 text-sm text-[#161109] hover:bg-[#e3e84a] focus:outline-none"
                     id="daftar"
                     onClick={handleClick}
                     type="submit"

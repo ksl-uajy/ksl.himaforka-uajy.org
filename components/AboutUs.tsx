@@ -3,7 +3,7 @@ import { FC, useEffect, useState } from "react";
 
 const AboutUs: FC = () => {
   return (
-    <div className="container px-6 pt-6 pb-12 font-rubik md:px-12 md:pt-16 lg:px-24">
+    <div className="container px-6 pb-12 pt-6 font-rubik md:px-12 md:pt-16 lg:px-24">
       <h1 className="pb-6 text-xl font-bold text-[#FAFFC4] md:text-3xl">Tentang Kami</h1>
       <p className="text-base text-white md:text-xl">
         Kelompok Studi Linux (KSL) adalah kelompok studi yang mempelajari tentang dasar-dasar dan
