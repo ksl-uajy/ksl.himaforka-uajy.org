@@ -8,12 +8,14 @@ import React from "react";
 import { FC, useEffect, useState } from "react";
 
 const Teams: FC = () => {
-  const [button1, setButton1] = useState(true);
+  const [button1, setButton1] = useState(false);
   const [button2, setButton2] = useState(false);
   const [button3, setButton3] = useState(false);
+  const [button4, setButton4] = useState(true);
   const [pengurus2020, setPengurus2020] = useState<any[]>([]);
   const [pengurus2021, setPengurus2021] = useState<any[]>([]);
   const [pengurus2022, setPengurus2022] = useState<any[]>([]);
+  const [pengurus2023, setPengurus2023] = useState<any[]>([]);
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     const buttonCliked = e.currentTarget.id;
@@ -22,14 +24,22 @@ const Teams: FC = () => {
       setButton1(true);
       setButton2(false);
       setButton3(false);
+      setButton4(false);
     } else if (buttonCliked == "tahun2") {
       setButton1(false);
       setButton2(true);
       setButton3(false);
+      setButton4(false);
     } else if (buttonCliked == "tahun3") {
       setButton1(false);
       setButton2(false);
       setButton3(true);
+      setButton4(false);
+    } else if (buttonCliked == "tahun4") {
+      setButton1(false);
+      setButton2(false);
+      setButton3(false);
+      setButton4(true);
     }
   };
 
@@ -67,9 +77,21 @@ const Teams: FC = () => {
       }
     };
 
+    const fetchPengurusTahun2023 = async () => {
+      try {
+        const queryData = query(collection(db, "Pengurus/2023/anggota"));
+        const querySnapshot = await getDocs(queryData);
+        const data = querySnapshot.docs.map((doc) => doc.data());
+        setPengurus2023(data);
+      } catch (error) {
+        console.log("Error fetching data: ", error);
+      }
+    };
+
     fetchPengurusTahun2020();
     fetchPengurusTahun2021();
     fetchPengurusTahun2022();
+    fetchPengurusTahun2023();
   }, []);
 
   return (
@@ -78,6 +100,17 @@ const Teams: FC = () => {
         <h1 className="text-xl font-bold text-[#FAFFC4] md:text-3xl">Tim Kami</h1>
 
         <div className="flex gap-4 py-6">
+          <button
+            className={
+              button4
+                ? "h-10 w-44 rounded-lg border-2 border-[#FDFFB0] text-xs text-[#FDFFB0] md:text-base"
+                : "h-10 w-44 rounded-lg border-2 border-[#85865D] text-xs text-[#85865D] md:text-base"
+            }
+            id="tahun4"
+            onClick={handleClick}
+          >
+            <h1 className="py-1 text-center">KSL 2024-2025</h1>
+          </button>
           <button
             className={
               button1
@@ -111,6 +144,27 @@ const Teams: FC = () => {
           >
             <h1 className="py-1 text-center">KSL 2021-2022</h1>
           </button>
+        </div>
+        {/*Pengurus 2023 */}
+        <div className={button4 ? "flex flex-wrap gap-4" : "hidden"}>
+          {pengurus2023.map((anggota, index) => (
+            <div
+              className="mx-auto mb-3 flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:mb-0 md:h-28 md:w-80"
+              key={index}
+            >
+              <Image
+                alt="Foto dummy"
+                className="my-auto h-14 w-14 flex-initial rounded-full md:h-16 md:w-16"
+                height={50}
+                src={anggota.foto}
+                width={50}
+              />
+              <div className="my-auto text-[#FDFFB4]">
+                <h1 className="pb-2 text-base md:text-xl">{anggota.nama}</h1>
+                <p className="text-sm md:text-base">{anggota.peran}</p>
+              </div>
+            </div>
+          ))}
         </div>
         {/*Pengurus 2022 */}
         <div className={button1 ? "flex flex-wrap gap-4" : "hidden"}>

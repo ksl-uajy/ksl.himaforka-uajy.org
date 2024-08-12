@@ -1,5 +1,5 @@
+import Logo from "@/public/KSL2324.svg";
 import closeIcon from "@/public/closeIcon.png";
-import Logo from "@/public/kslLogo.svg";
 import menuNav from "@/public/menuIcon.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,7 +17,7 @@ const Header: FC = () => {
       <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-4 py-4 lg:px-24">
         <div>
           <Link href="/">
-            <Image alt="Logo KSL" className="w-[150px] md:w-[220px]" src={Logo} />
+            <Image alt="Logo KSL" className="w-[120px] md:w-[150px]" src={Logo} />
           </Link>
         </div>
         {/* HumburgerMenu */}

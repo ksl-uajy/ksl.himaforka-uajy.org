@@ -1,4 +1,4 @@
-import Logo from "@/public/kslLogo.svg";
+import Logo from "@/public/KSL2324.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { FC, useEffect, useState } from "react";
@@ -9,7 +9,7 @@ const Footer: FC = () => {
       <div className="w-full bg-gradient-to-t from-black to-transparent px-6 font-rubik text-white lg:px-24">
         <div className="container sticky top-[100vh] mx-auto w-full py-6 lg:pt-52">
           <a className="items-right flex" href="/">
-            <Image alt="Logo KSL" className="w-56 pr-3" src={Logo}></Image>
+            <Image alt="Logo KSL" className="w-40 pr-3 md:w-56" src={Logo}></Image>
           </a>
           <div className="md:flex md:justify-between">
             <div className="pb-6 md:pb-0">
