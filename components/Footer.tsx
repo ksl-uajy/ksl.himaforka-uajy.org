@@ -27,7 +27,7 @@ const Footer: FC = () => {
                   <li className="pb-2">
                     <Link
                       className="hover:underline"
-                      href="https://forms.office.com/Pages/ResponsePage.aspx?id=WQqHiQgU7kCnKiLHAgrHR5-Cal0BNthEvSa4MW8LZ-VUMTdXRkQxOVc0N1dJS0EwVUdBU0paVkZURS4u"
+                      href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=WQqHiQgU7kCnKiLHAgrHR7pVTWNsDJ1IsSlRpd2kWrRUOVgwVE9ZWjQ1WTlLUks0N0JRWlkzWVVOMi4u"
                       target="_blank"
                     >
                       Daftar
