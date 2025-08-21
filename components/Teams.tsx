@@ -181,7 +181,7 @@ const Teams: FC = () => {
           </button>
         </div>
         {/*Pengurus 2024 */}
-        <div className={button4 ? "flex flex-wrap gap-4" : "hidden"}>
+        <div className={button5 ? "flex flex-wrap gap-4" : "hidden"}>
           {pengurus2024.map((anggota, index) => (
             <div
               className="mx-auto mb-3 flex h-24 w-64 gap-6 rounded-2xl bg-[#3B3E21] pl-5 md:mx-0 md:mb-0 md:h-28 md:w-80"
