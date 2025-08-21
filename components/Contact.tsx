@@ -1,5 +1,5 @@
-import Foto2 from "@/public/Axel.jpg";
-import Foto1 from "@/public/Brian.jpg";
+import Foto2 from "@/public/AWW.jpg";
+import Foto1 from "@/public/VBGS.jpg";
 import Image from "next/image";
 import React from "react";
 import { FC, useEffect, useState } from "react";
@@ -22,9 +22,9 @@ const Contact: FC = () => {
               src={Foto1}
             />
             <div className="my-auto text-[#B4FFD2]">
-              <h1 className="pb-2 font-bold">Brian</h1>
+              <h1 className="pb-2 font-bold">Bijann</h1>
               <div className="h-5 w-40 rounded-md bg-[#34694A] md:h-6 md:w-44">
-                <p className="text-center text-sm md:text-base">WA: 0821-3321-6696</p>
+                <p className="text-center text-sm md:text-base">WA: 0882-1578-6181</p>
               </div>
             </div>
           </div>
@@ -35,9 +35,9 @@ const Contact: FC = () => {
               src={Foto2}
             />
             <div className="my-auto text-[#B4FFD2]">
-              <h1 className="pb-2 font-bold">Axel</h1>
+              <h1 className="pb-2 font-bold">Albert</h1>
               <div className="h-5 w-40 rounded-md bg-[#34694A] md:h-6 md:w-44">
-                <p className="text-center text-sm md:text-base">WA: 0823-4019-6015</p>
+                <p className="text-center text-sm md:text-base">WA: 0812-3565-7397</p>
               </div>
             </div>
           </div>

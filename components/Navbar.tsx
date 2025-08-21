@@ -22,7 +22,7 @@ const Header: FC = () => {
         </div>
         {/* HumburgerMenu */}
         <Image alt="humburger" className="w-7 lg:hidden " onClick={handleHamburger} src={menuNav} />
-        <nav className="hidden pr-5 text-white dark:text-white lg:block lg:text-lg">
+        <nav className="hidden pr-5 text-white lg:block lg:text-lg dark:text-white">
           <ul className="flex space-x-4">
             <li>
               <Link href="/kegiatan">Kegiatan</Link>
